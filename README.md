@@ -1,9 +1,5 @@
 # 🧪 SIFIT | Testes Manuais de Software — QA
 
-![QA](https://img.shields.io/badge/QA-Testes%20Manuais-2563EB?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Em%20Andamento-F59E0B?style=for-the-badge)
-![BDD](https://img.shields.io/badge/Metodologia-BDD-8B5CF6?style=for-the-badge)
-![Documentação](https://img.shields.io/badge/Documentação-Markdown-334155?style=for-the-badge)
 
 ### 🏋️ Qualidade de Software aplicada à gestão de academias
 
@@ -47,11 +43,6 @@ Os testes são realizados manualmente, seguindo uma abordagem estruturada que co
 | 👤 **Usabilidade** | Avaliação da clareza das informações e facilidade de utilização. |
 
 ### 🛠️ Ferramentas e Tecnologias
-
-![GitHub](https://img.shields.io/badge/GitHub-Documentação-181717?style=flat-square&logo=github)
-![Markdown](https://img.shields.io/badge/Markdown-Relatórios-000000?style=flat-square&logo=markdown)
-![MariaDB](https://img.shields.io/badge/MariaDB-Banco%20de%20Dados-003545?style=flat-square&logo=mariadb)
-![MySQL](https://img.shields.io/badge/MySQL%20Workbench-Consultas-4479A1?style=flat-square&logo=mysql)
 
 | Ferramenta | Finalidade |
 |---|---|
