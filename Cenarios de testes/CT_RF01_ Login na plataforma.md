@@ -21,7 +21,9 @@
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | O redirecionamento para o Dashboard deve ocorrer corretamente.  |
+<img width="1151" height="852" alt="image" src="https://github.com/user-attachments/assets/067db1d1-e520-42dc-a49a-fc207c7a6934" />
 
+https://jam.dev/c/979da446-11f1-4c87-8873-af458b1f3d57
 ---
 
 ### Caso de Teste 02: Tentativa de login com senha incorreta.
