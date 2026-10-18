@@ -27,7 +27,8 @@ Resultado obtido: O sistema realizou a autenticação do usuário com credenciai
 
 Status: Aprovado.
 
-**Evidências:**
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
 Print da execução: 
 <img width="1151" height="852" alt="image" src="https://github.com/user-attachments/assets/067db1d1-e520-42dc-a49a-fc207c7a6934" />
 <img width="1907" height="912" alt="image" src="https://github.com/user-attachments/assets/3d1e142a-d2d9-430d-8340-37bc2dcbd393" />
@@ -67,7 +68,8 @@ Resultado obtido: Ao realizar uma tentativa de login com senha incorreta, o sist
 
 Status: Aprovado.
 
-**Evidências:**
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
 Print da execução: 
 <img width="775" height="700" alt="image" src="https://github.com/user-attachments/assets/8302e1da-ae6a-4dde-bf10-a514539f8b9f" />
 
@@ -113,7 +115,8 @@ Embora o sistema tenha impedido corretamente a autenticação, identifiquei uma 
 
 Status: Reprovado — falha na mensagem de validação dos campos obrigatórios.
 
-**Evidências:**
-Print da execução: 
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
+Print da execução:  
 <img width="781" height="727" alt="image" src="https://github.com/user-attachments/assets/432f64b7-af94-4807-a4ee-883e9d7becab" />
 
