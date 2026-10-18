@@ -4,21 +4,40 @@
 
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-| C02-CT01 | Verificar a exibição correta do Dashboard após login com sucesso. |
+| C02-CT01 | Verificar se o sistema SIFIT permite o acesso ao Dashboard após a autenticação bem-sucedida, apresentando corretamente os indicadores e as informações gerenciais da academia. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
-| O usuário deve estar autenticado com credenciais válidas.     |
+| O usuário deve possuir uma conta ativa no sistema SIFIT,
+com credenciais válidas e permissão para acessar o Dashboard. O sistema deve estar disponível para navegação.     |
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que o usuário acessou o sistema com sucesso              |
-| **QUANDO** for redirecionado automaticamente após o login         |
-| **ENTÃO** a tela do Dashboard deve ser exibida com os atalhos e widgets principais |
+| **DADO** que estou na página de login do SIFIT                                            |
+| E informo minhas credenciais válidas nos campos "Login" e "Senha"                         |
+| **QUANDO** clico no botão "Entrar"                                                        |
+| E sou autenticada e direcionada à página inicial do sistema                               |
+| E seleciono a opção "Dashboard" no menu lateral                                           |
+| **ENTÃO** o sistema deverá apresentar o Dashboard com os indicadores                      |
+| e as informações gerenciais da academia, sem apresentar erros de carregamento ou navegação|
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| O sistema deve exibir corretamente a interface do Dashboard.     |
+| O sistema deverá permitir o acesso ao Dashboard após a autenticação do usuário, exibindo corretamente seus componentes visuais, indicadores, gráficos e informações gerenciais disponíveis, sem apresentar falhas de carregamento ou mensagens de erro.     |
+
+Resultado obtido:
+Durante a execução do teste, realizei o login no sistema SIFIT utilizando credenciais válidas e, após acessar a página inicial, selecionei a opção "Dashboard" no menu lateral.
+
+O sistema permitiu o acesso à página e apresentou os indicadores da seção "Inteligência Sifit", incluindo informações sobre alunos em risco, aniversariantes, avaliações próximas do vencimento e frequência dos alunos.
+Também observei o carregamento dos gráficos relacionados aos clientes, como frequência, faixa etária e sexo, além dos gráficos referentes às matrículas.
+
+Status: Aprovado com ressalvas quanto ao acesso e carregamento. Identificada falha visual que deverá ser registrada para correção, pois apresenta inconsistência visual na apresentação das informações. Alguns títulos e textos dos gráficos aparecem com cores muito próximas às do fundo quando no modo CLARO, dificultando a leitura e a identificação dos dados. (Mais Detalhes em Relatórios de Bugs).
+
+Evidências: 
+Print da execução:
+<img width="1887" height="927" alt="image" src="https://github.com/user-attachments/assets/5258c48e-022a-46cc-9546-51ca6c89fd5f" />
+Vídeo da execução:
+https://jam.dev/c/97986eeb-3c8c-4cfe-bf54-7b1155e95f28
 
 ---
 
