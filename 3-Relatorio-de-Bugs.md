@@ -72,6 +72,14 @@ https://jam.dev/c/97986eeb-3c8c-4cfe-bf54-7b1155e95f28
 |  a sessão estiver válida.Caso a sessão expire,                          |     genérica de erro interno, sem explicar a causa ou orientar o|
 |  deve informar o usuário e solicitar uma nova autenticação.             |     usuário sobre como proceder.                                
 
+Durante a execução dos testes manuais no SIFIT, permaneci autenticada no sistema por mais de uma hora, realizando a navegação entre diferentes funcionalidades.
+Nesse período, observei a ocorrência da mensagem "Erro no servidor — Erro interno inesperado.", não sendo um problema limitado à funcionalidade de Check-in.
+
+Como usuária, percebi que a mensagem apresentada não esclarece o motivo da falha e não oferece orientações para solucionar o problema.
+
+Considero importante verificar se o comportamento possui relação com o tempo de duração da sessão ou com alguma falha de comunicação com o servidor, pois esse tipo de ocorrência pode comprometer a utilização contínua da plataforma.
+
+**Sugestão de melhoria:** investigar o gerenciamento das sessões e o tratamento dos erros internos, garantindo que o sistema apresente mensagens claras e permita ao usuário recuperar a navegação de maneira adequada.
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
