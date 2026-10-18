@@ -20,7 +20,6 @@
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| Critérios de aceitação
 O sistema deve autenticar o usuário e redirecioná-lo corretamente para a página inicial ou Dashboard,
 exibindo as funcionalidades correspondentes ao seu perfil. |
 
