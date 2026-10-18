@@ -1,86 +1,95 @@
-# ✅ **Relatório Final de Execução de Testes - OrangeHRM Demo**
+# ✅ Relatório de Execução de Testes — SIFIT
 
-**Sistema testado:** OrangeHRM (versão pública demo)
-**Responsável:** Aluno aplicado que ama aprender
-**Data de execução:** xx/xx/xxxx
-**Ambiente:** xxxxx
+## 📌 1. Identificação
 
-* Sistema operacional: Windows 11
-* Navegador: Chrome 138.0.7204.158
-* URL: [https://opensource-demo.orangehrmlive.com](https://opensource-demo.orangehrmlive.com)
-
----
-
-## 📊 **Resumo da Execução**
-
-| Total de Casos de Teste | Casos Passaram | Casos Falharam | Bugs Registrados |
-| ----------------------- | -------------- | -------------- | ---------------- |
-| 30                      | 24             | 6              | 6                |
+| Informação | Descrição |
+|---|---|
+| **Sistema** | SIFIT — Gestão de Academias |
+| **Responsável** | Larissa — QA |
+| **Período** | Outubro de 2026 |
+| **Ambiente** | [SIFIT Web](https://sifit.centrion.com.br/) |
+| **Tipo de Teste** | Manual, Funcional e Exploratório |
+| **Status** | Em andamento |
 
 ---
 
-## 🔍 **Cobertura por Módulo**
+## 📊 2. Resumo da Execução
 
-| Código RF | Módulo                   | Casos Testados | Casos Passaram | Bugs encontrados | Bug(s) Associado(s)       |
-| --------- | ------------------------ | -------------- | -------------- | -------------- | ------------------------- |
-| RF01      | Login                    | 3              | 3              | 2              | BUG-001, BUG-002, BUG-003 |
-| RF02      | Dashboard                | 3              | 3              | 0              | -                         |
-| RF03      | PIM - Funcionários       | 3              | 2              | 1              | BUG-005                   |
-| RF04      | Férias (Leave)           | 3              | 2              | 1              | BUG-004                   |
-| RF05      | Recrutamento             | 3              | 2              | 1              | BUG-006                   |
-| RF06      | Administração (Admin)    | 3              | 3              | 0              | -                         |
-| RF07      | Controle de Ponto (Time) | 3              | 3              | 0              | -                         |
-| RF08      | Relatórios               | 3              | N/A            | 0              | -                         |
-| RF09      | Diretório                | 3              | 3              | 0              | -                         |
-| RF10      | Manutenção               | 3              | 2              | 1              | (Mesmo que BUG-005)       |
+Os testes têm como objetivo verificar o funcionamento das principais funcionalidades do SIFIT, identificar falhas e avaliar a experiência do usuário.
+
+| Indicador | Resultado |
+|---|---|
+| Casos planejados | Em levantamento |
+| Casos executados | Em consolidação |
+| Casos aprovados | Em consolidação |
+| Casos reprovados | Em consolidação |
+| Bugs identificados | 3 ocorrências documentadas ou em investigação |
 
 ---
 
-## 🐞 **Resumo dos Bugs Reportados**
+## 🔍 3. Cobertura dos Testes
 
-| ID      | Título                                                                         | Severidade | Status |
-| ------- | ------------------------------------------------------------------------------ | ---------- | ------ |
-| BUG-001 | Ícone de visualizar senha desaparece ao clicar fora do campo                   | Média      | Aberto |
-| BUG-002 | Página de login atualiza ao ocorrer erro de autenticação                       | Baixa      | Aberto |
-| BUG-003 | Não há mensagem clara de sucesso ou falha no login                             | Média      | Aberto |
-| BUG-004 | Não é possível aplicar licença de férias - "No Leave Types with Leave Balance" | Alta       | Aberto |
-| BUG-005 | Ícone de “ver senha” desaparece no formulário de criação de funcionário        | Média      | Aberto |
-| BUG-006 | Erro de carregamento ao tentar agendar entrevista já agendada                  | Alta       | Aberto |
-
----
-
-## 📈 **Gráfico de Resultado (Texto Alternativo)**
-
-**Casos por status:**
-
-* ✅ Passaram: 24
-* ❌ Falharam: 6
-
-**Severidade dos bugs:**
-
-* 🟥 Alta: 2
-* 🟨 Média: 3
-* 🟩 Baixa: 1
+| Módulo | Situação |
+|---|---|
+| Autenticação | Testado |
+| Página Inicial e Dashboard | Testado |
+| Check-in e Presenças | Em investigação |
+| Clientes e Matrículas | Pendente de consolidação |
+| Avaliações e Treinamentos | Pendente de consolidação |
+| Gestão Financeira | Pendente de consolidação |
+| Turmas e SifitBox | Pendente de consolidação |
+| Cadastros Administrativos | Pendente de consolidação |
+| Inteligência e Automação | Pendente de consolidação |
 
 ---
 
-## 📁 **Evidências e Documentos**
+## 🐞 4. Bugs Identificados
 
-* ✔️ [Plano de Testes (Markdown)]
-* ✔️ [Casos de Teste (Planilha ou Markdown)]
-* 🐛 [Relatório de Bugs com Evidências em Vídeo]
-* 📹 Evidências em vídeo hospedadas no [Jam.dev]
+| ID | Descrição | Severidade sugerida |
+|---|---|---|
+| BUG-001 | Mensagem inadequada ao tentar login com campos vazios. | Média |
+| BUG-C02-001 | Baixo contraste nos textos e gráficos do Dashboard. | Média |
+| BUG-002 | Erro interno do servidor durante a navegação após mais de uma hora de sessão. | Alta (provisória) |
+
+**Observação:** o erro interno ainda está em investigação. Não foi confirmado que o tempo de sessão seja sua causa.
 
 ---
 
-## ✅ **Conclusão**
+## 📈 5. Resultados Obtidos
 
-A execução dos testes manuais no OrangeHRM demonstrou **boa estabilidade geral**, mas **apresentou falhas críticas** nos módulos de **Login**, **Recrutamento**, e **Férias**, que impactam diretamente a **experiência do usuário** e **processos-chave** do sistema.
+Durante os testes, foi possível confirmar o funcionamento da autenticação com credenciais válidas, o bloqueio de acessos incorretos e o carregamento das informações gerenciais.
 
-🔍 Identificação da Causa Raiz (Root Cause Analysis)
-A identificação da causa raiz é uma etapa essencial no processo de garantia de qualidade (QA), pois busca entender por que um defeito ocorreu, indo além dos sintomas visíveis do problema. Essa análise ajuda a evitar recorrência de falhas, melhorando a qualidade do software a longo prazo.
+Entretanto, foram identificadas inconsistências relacionadas à validação de campos obrigatórios, à legibilidade dos gráficos e ao tratamento de erros internos.
 
-Ao encontrar um bug, o QA não deve apenas registrá-lo, mas também investigar sua origem. A causa raiz pode estar em erros de lógica no código, falhas de validação, má comunicação entre equipes, requisitos mal definidos ou até inconsistências no ambiente de teste. Ferramentas como 5 Porquês, Diagrama de Ishikawa ou análise de logs podem ser utilizadas para essa investigação.
+Esses problemas foram registrados para análise e recomendações de melhoria.
 
-Identificar corretamente a causa raiz permite que os desenvolvedores corrijam o erro de forma precisa e que o time evite retrabalhos, contribuindo para entregas mais estáveis, eficientes e com menor custo.
+---
 
+## 📁 6. Evidências
+
+As execuções são documentadas por meio de capturas de tela, gravações e relatórios de bugs, organizados no GitHub.
+
+- 📸 Prints dos testes realizados.
+- 🎥 [Evidência de erro interno — Jam.dev](https://jam.dev/c/f57b5c39-dcf1-49ec-bdda-a0b42f85d11a)
+- 🧪 Casos de teste em BDD (DADO, QUANDO e ENTÃO).
+- 🐞 Relatórios individuais de defeitos.
+
+---
+
+## 🔎 7. Análise de Causa Raiz (RCA)
+
+A análise de causa raiz busca identificar os fatores responsáveis pelas falhas encontradas.
+
+No SIFIT, as principais hipóteses de investigação envolvem validações de formulários, configurações visuais dos gráficos e possíveis problemas na comunicação com o servidor ou gerenciamento de sessões.
+
+A confirmação dessas causas depende de investigação técnica e, quando disponível, da análise dos logs do sistema.
+
+---
+
+## ✅ 8. Conclusão
+
+Os testes manuais realizados até o momento demonstraram que o SIFIT possui funcionalidades operacionais, mas também apresenta inconsistências que podem comprometer a experiência do usuário.
+
+Os problemas identificados foram documentados com evidências, permitindo orientar futuras correções e melhorias.
+
+**O processo de QA permanece em andamento**, com novos testes previstos para os demais módulos do sistema.
