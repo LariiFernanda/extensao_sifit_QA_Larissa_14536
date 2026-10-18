@@ -29,9 +29,9 @@
 
 |                        **Comportamento Esperado**                       |                        **Comportamento Obtido**                        |
 | :---------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-|Os títulos, legendas e informações dos gráficos devem possuir contraste  |   |  Os gráficos são carregados, porém alguns títulos |
-|adequado em relação ao fundo, permitindo que o usuário visualize  |           |   e informações aparecem com cores muito próximas às do fundo, |
-|e interprete os indicadores gerenciais com facilidade. |                      |  comprometendo a legibilidade e dificultando a interpretação dos dados. |
+|Os títulos, legendas e informações dos gráficos devem possuir contraste  |     Os gráficos são carregados, porém alguns títulos |
+|adequado em relação ao fundo, permitindo que o usuário visualize  |            e informações aparecem com cores muito próximas às do fundo, |
+|e interprete os indicadores gerenciais com facilidade. |                       comprometendo a legibilidade e dificultando a interpretação dos dados. |
 
 | **Ambiente**             |
 | ------------------------ |
