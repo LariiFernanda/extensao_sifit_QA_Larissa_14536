@@ -32,6 +32,8 @@ Print da execução:
 <img width="1151" height="852" alt="image" src="https://github.com/user-attachments/assets/067db1d1-e520-42dc-a49a-fc207c7a6934" />
 <img width="1907" height="912" alt="image" src="https://github.com/user-attachments/assets/3d1e142a-d2d9-430d-8340-37bc2dcbd393" />
 
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
 Vídeo da execução:
 https://jam.dev/c/979da446-11f1-4c87-8873-af458b1f3d57
 ---
@@ -69,6 +71,9 @@ Status: Aprovado.
 Print da execução: 
 <img width="775" height="700" alt="image" src="https://github.com/user-attachments/assets/8302e1da-ae6a-4dde-bf10-a514539f8b9f" />
 
+
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
 Vídeo da execução:
 https://jam.dev/c/c5eb0694-fe80-4eed-a02d-90ddfb9b8c68
 
