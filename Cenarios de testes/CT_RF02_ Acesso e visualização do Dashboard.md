@@ -38,9 +38,10 @@ Status: Aprovado com ressalvas quanto ao acesso e carregamento. Identificada fal
 Print da execução: 
 <img width="1887" height="927" alt="image" src="https://github.com/user-attachments/assets/5258c48e-022a-46cc-9546-51ca6c89fd5f" />
 <img width="1902" height="976" alt="image" src="https://github.com/user-attachments/assets/0f63a271-aa07-4942-b892-692a07437db2" />
+
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
-Vídeo da execução:
+Vídeo da execução: 
 https://jam.dev/c/97986eeb-3c8c-4cfe-bf54-7b1155e95f28
 
 ---
