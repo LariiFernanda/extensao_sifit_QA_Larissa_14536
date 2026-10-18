@@ -1,135 +1,316 @@
-## 🧪 **Plano de Testes - OrangeHRM (Demo)**
+# 🧪 Plano de Testes Manuais — SIFIT
 
-### 📌 1. **Identificação**
+**Sistema de Gestão de Academias | Quality Assurance (QA)**
 
-* **Nome do Projeto**: OrangeHRM - Sistema de Gestão de Recursos Humanos
-* **Versão Avaliada**: Demo pública
-* **Ambiente de Testes**: [https://opensource-demo.orangehrmlive.com](https://opensource-demo.orangehrmlive.com)
-* **Tipo de Teste**: Teste Funcional Manual
-* **Data do Documento**: xx/xx/xxxx
-* **Responsável**: Aluno aplicado que ama aprender 
+Este documento apresenta o planejamento dos testes manuais realizados no **SIFIT**, contemplando os objetivos, escopo, metodologia, critérios de aceitação, riscos e entregáveis do processo de avaliação da qualidade do software.
 
 ---
 
-### 🎯 2. **Objetivo**
+## 📌 1. Identificação do Projeto
 
-Realizar a verificação manual dos principais requisitos funcionais do sistema OrangeHRM Demo com foco em validação dos fluxos críticos, mensagens de erro, comportamento esperado e integridade das funcionalidades disponíveis na interface web.
-
----
-
-### 🧩 3. **Escopo**
-
-**Incluído:**
-
-* Autenticação de usuário
-* Dashboard inicial
-* Gestão de funcionários (PIM)
-* Férias (Leave)
-* Recrutamento
-* Administração (Admin)
-* Controle de ponto (Time)
-* Diretório e relatórios
-
-**Excluído:**
-
-* Testes de integração com sistemas externos (não disponíveis na demo)
-* Testes em dispositivos móveis
-* Testes de performance ou carga
+| Informação | Descrição |
+|---|---|
+| **Nome do Projeto** | SIFIT — Sistema de Gestão de Academias |
+| **Sistema Avaliado** | Plataforma web de gerenciamento de academias |
+| **Versão Avaliada** | Versão web disponível durante o período dos testes |
+| **Ambiente de Testes** | [SIFIT — Plataforma Web](https://sifit.centrion.com.br/) |
+| **Tipo de Teste** | Testes Manuais Funcionais e Exploratórios |
+| **Período de Avaliação** | Outubro de 2026 |
+| **Responsável** | Larissa — Testadora QA |
+| **Finalidade** | Projeto acadêmico de Qualidade de Software |
 
 ---
 
-### 🔧 4. **Ferramentas Utilizadas**
+## 🎯 2. Objetivo
 
-* Navegador Google Chrome / Firefox / Brave
-* Ferramentas de inspeção do navegador (DevTools)
-* Google Sheets ou Excel (registro de casos e evidências)
-* Captura de tela (Snipping Tool ou Lightshot)
+O plano de testes tem como objetivo avaliar manualmente as principais funcionalidades do **SIFIT — Sistema de Gestão de Academias**, verificando se os recursos disponíveis apresentam comportamentos adequados às necessidades administrativas e operacionais de uma academia.
 
----
+A avaliação busca identificar falhas funcionais, problemas de validação, inconsistências na apresentação de informações e dificuldades de navegação que possam comprometer a experiência dos usuários.
 
-### 🧪 5. **Técnicas de Teste**
+**Objetivos específicos:**
 
-* Particionamento de equivalência
-* Análise de valor limite
-* Caminho feliz (Happy Path)
-* Testes negativos
-* Testes exploratórios
-
----
-
-### 📄 6. **Critérios de Aceitação**
-
-* Todos os casos de teste devem passar com sucesso, conforme o resultado esperado.
-* Nenhuma falha crítica deve estar presente em funcionalidades principais.
-* Mensagens de erro e validações devem ser consistentes.
+- Validar os fluxos de autenticação e acesso às funcionalidades.
+- Verificar o comportamento dos formulários e das operações de cadastro.
+- Avaliar a navegação entre os módulos administrativos.
+- Analisar a apresentação dos indicadores gerenciais e financeiros.
+- Identificar inconsistências nas mensagens de validação e tratamento de erros.
+- Verificar a consulta, atualização e persistência dos dados quando aplicável.
+- Registrar evidências e documentar os defeitos identificados.
+- Propor melhorias para os problemas observados durante os testes.
 
 ---
 
-### 🚦 7. **Critérios de Saída (Exit Criteria)**
+## 🧩 3. Escopo dos Testes
 
-* Todos os testes do escopo foram executados.
-* Falhas foram registradas, analisadas e reexecutadas se necessário.
-* Documentação de evidências de sucesso e falhas está completa.
+O escopo contempla as funcionalidades disponíveis na interface web do SIFIT, priorizando os fluxos utilizados nas atividades de gerenciamento da academia.
+
+### ✅ Funcionalidades incluídas
+
+**Autenticação e Navegação**
+- Login com credenciais válidas e inválidas.
+- Validação de campos obrigatórios.
+- Recuperação de senha.
+- Acesso à página inicial e ao Dashboard.
+- Navegação entre os módulos.
+
+**Gestão Administrativa**
+- Cadastro e consulta de clientes.
+- Gerenciamento de matrículas.
+- Cadastro e acompanhamento de avaliações físicas.
+- Cadastro de fornecedores e funções profissionais.
+- Gerenciamento de tipos de documentos.
+
+**Controle Operacional**
+- Check-in manual e entrada rápida.
+- Consulta de presenças.
+- Pesquisa e filtros por período.
+- Gerenciamento de turmas e modalidades.
+- Organização das aulas do SifitBox.
+
+**Treinamento**
+- Cadastro e consulta de fichas de treino.
+- Biblioteca de exercícios.
+- Gerenciamento de grupos musculares.
+- Categorias CrossFit.
+- Objetivos de treinamento.
+
+**Gestão Financeira**
+- Contas a receber.
+- Contas a pagar.
+- Consulta de pagamentos e vencimentos.
+- Indicadores financeiros.
+
+**Gestão e Inteligência**
+- Visualização dos indicadores gerenciais.
+- Gerenciamento de enquetes.
+- Inteligência de retenção.
+- Automações disponíveis.
+- Notificações e alertas administrativos.
+
+### 🚫 Funcionalidades fora do escopo
+
+- Testes de carga, estresse e desempenho em larga escala.
+- Testes automatizados de interface ou API.
+- Testes de invasão e exploração de vulnerabilidades.
+- Testes em aplicativos móveis nativos.
+- Alterações estruturais no banco de dados.
+- Validação de integrações externas que dependam de serviços ou permissões não disponibilizados.
+- Funcionalidades identificadas como "Em desenvolvimento".
+
+**Observação:** a análise será realizada prioritariamente por meio da interface web, podendo utilizar consultas de leitura no banco de dados para verificar a consistência das informações, quando necessário.
 
 ---
 
-### ⏱️ 8. **Cronograma Estimado**
+## 🔧 4. Ferramentas Utilizadas
 
-| Atividade                   | Data Início | Data Fim   |
-| --------------------------- | ----------- | ---------- |
-| Planejamento de Testes      | 31/07/2025  | 31/07/2025 |
-| Criação de Casos de Teste   | 31/07/2025  | 31/07/2025 |
-| Execução dos Testes Manuais | 31/07/2025  | 28/08/2025 |
-| Registro e Report de Bugs   | 04/09/2025  | 11/09/2025 |
-| Encerramento e Evidências   | 11/09/2025  | 11/09/2025 |
-
----
-
-### 📋 9. **Módulos a Serem Testados**
-
-| Código RF | Módulo                   | Prioridade |
-| --------- | ------------------------ | ---------- |
-| RF01      | Login                    | Alta       |
-| RF02      | Dashboard                | Média      |
-| RF03      | PIM - Funcionários       | Alta       |
-| RF04      | Férias (Leave)           | Alta       |
-| RF05      | Recrutamento             | Média      |
-| RF06      | Administração (Admin)    | Alta       |
-| RF07      | Controle de Ponto (Time) | Média      |
-| RF08      | Relatórios               | Média      |
-| RF09      | Diretório                | Baixa      |
-| RF10      | Manutenção               | Baixa      |
+| Ferramenta | Finalidade |
+|---|---|
+| **Google Chrome** | Navegação e execução dos testes manuais |
+| **Chrome DevTools** | Inspeção de elementos e análise de erros, quando necessário |
+| **MySQL Workbench** | Consulta e verificação de informações no banco de dados |
+| **MariaDB** | Banco de dados utilizado pelo SIFIT |
+| **Jam.dev** | Gravação de testes e documentação visual dos bugs |
+| **Captura de Tela** | Registro de evidências dos comportamentos observados |
+| **GitHub** | Organização, versionamento e publicação da documentação |
+| **Markdown** | Elaboração dos casos de teste e relatórios |
 
 ---
 
-### 🐞 10. **Gestão de Defeitos**
+## 🧪 5. Técnicas de Teste
 
-* Bugs serão documentados com:
+Os testes serão executados manualmente, utilizando técnicas adequadas à validação das funcionalidades e à identificação de inconsistências.
 
-  * Título
-  * Descrição
-  * Passos para reproduzir
-  * Evidência (print ou vídeo)
-  * Gravidade (Crítica, Alta, Média, Baixa)
-* Ferramenta sugerida: Trello (para simulação)
+| Técnica | Aplicação no SIFIT |
+|---|---|
+| **Testes positivos** | Verificar o funcionamento das operações com informações válidas. |
+| **Testes negativos** | Avaliar a resposta do sistema a dados inválidos ou incompletos. |
+| **Particionamento de equivalência** | Organizar entradas em grupos válidos e inválidos para reduzir testes repetitivos. |
+| **Análise de valor limite** | Testar limites de datas, valores monetários, quantidades e campos numéricos. |
+| **Caminho feliz (Happy Path)** | Verificar a conclusão de processos nas condições esperadas. |
+| **Testes exploratórios** | Investigar comportamentos inesperados durante a navegação. |
+| **Testes de usabilidade** | Avaliar mensagens, legibilidade, organização visual e facilidade de utilização. |
+
+### Padrão de execução — BDD
+
+Os casos de teste serão descritos utilizando a estrutura:
+
+> **DADO** que estou em determinada página ou condição inicial.
+>
+> **E** informo os dados necessários para a operação.
+>
+> **QUANDO** realizo uma ação no sistema.
+>
+> **ENTÃO** o sistema deverá apresentar o comportamento esperado.
+
+Cada execução será acompanhada de um registro do resultado observado e, sempre que possível, de evidências em imagem ou vídeo.
 
 ---
 
-### 📌 11. **Riscos Identificados**
+## 📄 6. Critérios de Aceitação
 
-| Risco                                  | Impacto | Mitigação                        |
-| -------------------------------------- | ------- | -------------------------------- |
-| Sistema fora do ar                     | Alto    | Tentar novamente após intervalo  |
-| Dados da demo não sendo persistentes   | Médio   | Refazer cenários se necessário   |
-| Testes limitados à conta "Admin" única | Médio   | Documentar esse limite no escopo |
+Um caso de teste será considerado aprovado quando o comportamento observado corresponder ao resultado esperado e atender aos requisitos definidos para a funcionalidade.
+
+**Critérios considerados:**
+
+- A funcionalidade executa corretamente a operação solicitada.
+- Os campos obrigatórios são validados adequadamente.
+- Dados inválidos são tratados sem comprometer o funcionamento do sistema.
+- As mensagens de erro são claras e orientam o usuário.
+- A navegação ocorre sem redirecionamentos inesperados.
+- As informações apresentadas são consistentes com os registros existentes.
+- Os componentes da interface apresentam legibilidade adequada.
+- As operações de cadastro e atualização são persistidas corretamente, quando aplicável.
+- O acesso às funcionalidades respeita as permissões previstas.
+
+### Classificação dos resultados
+
+| Status | Descrição |
+|---|---|
+| ✅ **Aprovado** | O sistema apresentou o comportamento esperado. |
+| ❌ **Reprovado** | Foi identificada uma falha que impede o atendimento de um ou mais critérios de aceitação. |
+| 🚫 **Bloqueado** | Não foi possível concluir o teste devido a uma condição impeditiva. |
+| ⏳ **Não executado** | O caso de teste ainda não foi realizado. |
+
+Quando uma funcionalidade operar corretamente, mas apresentar uma falha secundária, a inconsistência será registrada e o status do caso será definido conforme os critérios afetados.
 
 ---
 
-### 📁 12. **Entregáveis**
+## 🚦 7. Critérios de Saída (Exit Criteria)
 
-* Plano de Testes (.md ou .pdf)
-* Casos de Teste (.md ou planilha)
-* Evidências de Execução (prints organizados por RF)
-* Registro de Bugs (se houver)
-* Registro de Melhoria (se houver)
-* Relatório Final de Execução
+A etapa de testes poderá ser considerada concluída quando:
+
+- Todos os casos de teste planejados para o ciclo forem executados ou possuírem justificativa para bloqueio.
+- Os resultados obtidos estiverem documentados.
+- Os bugs identificados estiverem registrados e classificados.
+- As evidências estiverem organizadas e acessíveis.
+- Os problemas críticos identificados estiverem destacados no relatório final.
+- As possíveis correções forem reavaliadas quando disponibilizadas.
+- O relatório final apresentar o resumo dos testes e as principais recomendações.
+
+**Observação:** a conclusão do trabalho acadêmico não significa necessariamente que todos os defeitos foram corrigidos, mas que foram identificados, analisados e documentados dentro do escopo definido.
+
+---
+
+## ⏱️ 8. Cronograma de Testes
+
+O planejamento está organizado em etapas, considerando o andamento do projeto durante outubro de 2026.
+
+| Atividade | Período previsto | Situação |
+|---|---|---|
+| Análise inicial do SIFIT | Outubro/2026 | Em andamento |
+| Levantamento de requisitos funcionais | Outubro/2026 | Em andamento |
+| Elaboração dos cenários e casos de teste | Outubro/2026 | Em andamento |
+| Execução dos testes manuais | A definir | Em andamento |
+| Registro e análise dos bugs | Durante a execução | Em andamento |
+| Reexecução dos testes após correções | Conforme disponibilidade | Pendente |
+| Organização das evidências | Durante a execução | Em andamento |
+| Elaboração do relatório final | A definir | Pendente |
+
+*As datas poderão ser ajustadas conforme o cronograma acadêmico e a evolução das atividades.*
+
+---
+
+## 📋 9. Módulos a Serem Testados
+
+A priorização considera o impacto das funcionalidades nas operações da academia e a relevância dos fluxos para a utilização do sistema.
+
+| Código RF | Módulo | Prioridade |
+|---|---|---|
+| RF01 | Autenticação e Controle de Acesso | Alta |
+| RF02 | Página Inicial e Dashboard | Alta |
+| RF03 | Gerenciamento de Clientes | Alta |
+| RF04 | Gerenciamento de Matrículas | Alta |
+| RF05 | Avaliações Físicas | Média |
+| RF06 | Controle de Check-in | Alta |
+| RF07 | Histórico de Presenças | Média |
+| RF08 | Fichas de Treino | Média |
+| RF09 | Exercícios e Grupos Musculares | Média |
+| RF10 | Turmas e Modalidades | Média |
+| RF11 | SifitBox e Categorias CrossFit | Média |
+| RF12 | Contas a Receber | Alta |
+| RF13 | Contas a Pagar | Alta |
+| RF14 | Fornecedores | Média |
+| RF15 | Funções Profissionais | Média |
+| RF16 | Tipos de Documentos | Baixa |
+| RF17 | Enquetes | Baixa |
+| RF18 | Inteligência e Automação | Média |
+
+**Critério de priorização:** funcionalidades relacionadas à autenticação, aos cadastros principais, ao controle de acesso dos alunos e às operações financeiras recebem maior prioridade por seu impacto operacional.
+
+---
+
+## 🐞 10. Gestão de Defeitos
+
+Durante os testes, os comportamentos que não atenderem aos critérios esperados serão documentados por meio de relatórios de bugs.
+
+Cada defeito deverá conter:
+
+1. **ID e título:** identificação e resumo da falha.
+2. **Descrição:** detalhamento do problema encontrado.
+3. **Severidade:** impacto da falha sobre o funcionamento do sistema.
+4. **Prioridade:** urgência recomendada para correção.
+5. **Status:** situação atual do defeito.
+6. **Passos para reproduzir:** sequência de ações realizadas.
+7. **Comportamento esperado:** resultado que deveria ocorrer.
+8. **Comportamento obtido:** resposta apresentada pelo sistema.
+9. **Ambiente de teste:** navegador, sistema operacional e módulo.
+10. **Evidências:** capturas de tela e gravações.
+11. **Caso de teste relacionado:** referência ao cenário no qual a falha foi identificada.
+
+### Classificação de severidade
+
+| Severidade | Descrição |
+|---|---|
+| **Crítica** | Compromete gravemente a segurança, a integridade dos dados ou a disponibilidade do sistema. |
+| **Alta** | Impede a execução de uma funcionalidade importante ou compromete significativamente sua utilização. |
+| **Média** | Afeta parcialmente a funcionalidade ou prejudica a experiência do usuário sem necessariamente impedir a operação. |
+| **Baixa** | Apresenta impacto limitado, normalmente relacionado a pequenos ajustes visuais ou comportamentais. |
+
+Os defeitos serão acompanhados por meio da documentação no GitHub, mantendo o vínculo com os casos de teste e as respectivas evidências.
+
+---
+
+## ⚠️ 11. Riscos Identificados
+
+| Risco | Impacto | Estratégia de mitigação |
+|---|---|---|
+| Indisponibilidade temporária do sistema | Alto | Registrar a ocorrência e reagendar a execução. |
+| Erros internos durante a navegação | Alto | Documentar a falha, o tempo de sessão e as ações realizadas. |
+| Expiração inesperada da sessão | Médio | Verificar o comportamento após nova autenticação e registrar evidências. |
+| Alterações nos dados por outros usuários | Médio | Utilizar registros de teste identificáveis e conferir o estado dos dados antes da execução. |
+| Falhas de validação em formulários | Médio | Executar cenários positivos e negativos e registrar os resultados. |
+| Inconsistências em indicadores e relatórios | Alto | Comparar informações da interface com registros disponíveis e consultas autorizadas ao banco. |
+| Exclusão acidental de informações | Alto | Evitar operações destrutivas em dados reais e utilizar registros controlados. |
+| Limitações de permissões do usuário | Médio | Documentar funcionalidades indisponíveis ou casos bloqueados. |
+| Falhas na gravação de evidências | Médio | Conferir imagens e vídeos após cada execução. |
+| Exposição de dados pessoais nas evidências | Alto | Ocultar informações sensíveis antes da publicação no GitHub. |
+
+---
+
+## 📁 12. Entregáveis
+
+Ao final do processo, o projeto deverá apresentar os seguintes materiais:
+
+| Entregável | Descrição |
+|---|---|
+| 📄 **Plano de Testes** | Documento com estratégia, escopo, objetivos, critérios e riscos. |
+| 📦 **Requisitos Funcionais** | Levantamento das funcionalidades avaliadas no SIFIT. |
+| 🧪 **Casos de Teste** | Cenários estruturados com pré-condições, passos e critérios de aceitação. |
+| 📸 **Evidências de Execução** | Prints e vídeos que demonstram os comportamentos observados. |
+| 🐞 **Relatórios de Bugs** | Registros detalhados das falhas encontradas. |
+| 💡 **Recomendações de Melhoria** | Sugestões relacionadas à funcionalidade, usabilidade e tratamento de erros. |
+| 📊 **Relatório Final de QA** | Consolidado dos testes executados, resultados e principais conclusões. |
+
+---
+
+## 👩‍💻 13. Considerações Finais
+
+O plano de testes do SIFIT foi elaborado com o objetivo de orientar a execução das atividades de Quality Assurance, proporcionando organização, rastreabilidade e padronização na documentação.
+
+A avaliação das funcionalidades será realizada considerando tanto o comportamento técnico do sistema quanto a experiência do usuário durante a utilização.
+
+Os resultados obtidos permitirão identificar problemas, registrar evidências e apresentar recomendações para melhoria da qualidade do software.
+
+Por meio desse processo, o projeto também contribui para o desenvolvimento de competências práticas em análise de requisitos, planejamento de testes, execução manual, identificação de defeitos e documentação técnica.
+
+**Status do Plano de Testes:** Em andamento — Outubro de 2026.
