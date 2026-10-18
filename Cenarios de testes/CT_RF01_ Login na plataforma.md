@@ -4,23 +4,25 @@
 
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
-| C01-CT01 | O login será realizado com um nome de usuário e uma senha válidos. |
+| C01-CT01 | Verificar se o sistema SIFIT permite que um usuário cadastrado realize login utilizando credenciais válidas. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
-| As credenciais fornecidas (usuário e senha) devem ser válidas. |
+| O usuário deve possuir uma conta ativa no sistema SIFIT, com nome de usuário ou e-mail e senha válidos. |
 
-| **Passos**                                                        |
-| :---------------------------------------------------------------- |
-| **DADO** que estamos na página de login do OrangeHRM              |
-| **E** preenchemos "Admin" no campo usuário                        |
-| **E** preenchemos "admin123" no campo senha                       |
-| **QUANDO** clicarmos no botão "Login"                             |
-| **ENTÃO** seremos redirecionados para o Dashboard do sistema      |
+| **Passos**                                                                    |
+| :----------------------------------------------------------------             |
+| DADO que estamos na página de login do SIFIT                                  |
+|E preenchemos o campo de usuário ou e-mail com uma credencial válida           |
+|E preenchemos o campo de senha com uma senha válida                            |
+|QUANDO clicarmos no botão "Entrar"                                             |
+|ENTÃO seremos autenticados e redirecionados para a página inicial do sistema   |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| O redirecionamento para o Dashboard deve ocorrer corretamente.  |
+| Critérios de aceitação
+O sistema deve autenticar o usuário e redirecioná-lo corretamente para a página inicial ou Dashboard,
+exibindo as funcionalidades correspondentes ao seu perfil. |
 <img width="1151" height="852" alt="image" src="https://github.com/user-attachments/assets/067db1d1-e520-42dc-a49a-fc207c7a6934" />
 
 https://jam.dev/c/979da446-11f1-4c87-8873-af458b1f3d57
@@ -30,23 +32,29 @@ https://jam.dev/c/979da446-11f1-4c87-8873-af458b1f3d57
 
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
-| C01-CT02 | O login falhará quando a senha for inválida.             |
+| C01-CT02 | Verificar se o sistema SIFIT impede a autenticação de um usuário quando uma senha incorreta é informada.            |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
-| O usuário \"Admin\" deve existir no sistema. |
+| O usuário deve possuir uma conta cadastrada no sistema SIFIT e informar uma senha diferente da senha válida de acesso.|
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que estamos na página de login do OrangeHRM              |
-| **E** preenchemos "Admin" no campo usuário                        |
-| **E** preenchemos "senhaerrada" no campo senha                    |
-| **QUANDO** clicarmos no botão "Login"                             |
-| **ENTÃO** uma mensagem de erro \"Invalid credentials\" será exibida |
+|DADO que estamos na página de login do SIFIT                             |  
+|E preenchemos o campo "Login" com um e-mail cadastrado no sistema        |
+|E preenchemos o campo "Senha" com uma senha incorreta                    |
+|QUANDO clicarmos no botão "Entrar"                                       |
+|ENTÃO o sistema deverá impedir a autenticação e apresentar uma mensagem  |
+|informando que as credenciais não correspondem                           |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| A mensagem de erro \"Invalid credentials\" deve ser exibida.    |
+| O sistema deve impedir o acesso com uma senha incorreta,      |
+| permanecer na página de login e exibir uma mensagem de erro   |
+| informando que as credenciais fornecidas são inválidas.       |
+<img width="775" height="700" alt="image" src="https://github.com/user-attachments/assets/8302e1da-ae6a-4dde-bf10-a514539f8b9f" />
+https://jam.dev/c/c5eb0694-fe80-4eed-a02d-90ddfb9b8c68
+
 
 ---
 
