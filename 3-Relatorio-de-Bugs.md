@@ -53,6 +53,7 @@ https://jam.dev/c/97986eeb-3c8c-4cfe-bf54-7b1155e95f28
 
 
 
+
 ### 🐞  **Bug 02: Erro interno do servidor durante a navegação no SIFIT**
 
 | **ID**     | **Descrição**                                                                                                                                             |
@@ -69,7 +70,9 @@ https://jam.dev/c/97986eeb-3c8c-4cfe-bf54-7b1155e95f28
 | :---------------------------------------------------------------------: | :--------------------------------------------------------------------: |
 |  O sistema deve permitir a navegação entre os módulos enquanto          |     Durante a navegação, o sistema apresenta uma mensagem|
 |  a sessão estiver válida.Caso a sessão expire,                          |     genérica de erro interno, sem explicar a causa ou orientar o|
-|  deve informar o usuário e solicitar uma nova autenticação.             |     usuário sobre como proceder.                                |                                                                   
+|  deve informar o usuário e solicitar uma nova autenticação.             |     usuário sobre como proceder.                                
+
+
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
 Print da execução:
