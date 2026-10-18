@@ -1,77 +1,111 @@
-🧪 SIFIT — Testes Manuais de Software | QA
+# 🧪 SIFIT | Testes Manuais de Software — QA
 
-Repositório dedicado ao planejamento, execução e documentação de testes manuais de qualidade de software (QA) no SIFIT — Sistema de Gestão de Academias.
+![QA](https://img.shields.io/badge/QA-Testes%20Manuais-2563EB?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Em%20Andamento-F59E0B?style=for-the-badge)
+![BDD](https://img.shields.io/badge/Metodologia-BDD-8B5CF6?style=for-the-badge)
+![Documentação](https://img.shields.io/badge/Documentação-Markdown-334155?style=for-the-badge)
 
-O projeto tem como objetivo avaliar o funcionamento das funcionalidades do sistema, identificar possíveis falhas e verificar se os recursos disponíveis atendem aos comportamentos esperados, contribuindo para a melhoria da qualidade, confiabilidade e experiência dos usuários.
+### 🏋️ Qualidade de Software aplicada à gestão de academias
 
-🎯 Objetivo do Projeto
+Este repositório reúne o **planejamento, execução e documentação de testes manuais** realizados no **SIFIT — Sistema de Gestão de Academias**.
 
-Este trabalho foi desenvolvido com o propósito de aplicar, na prática, os conhecimentos adquiridos em Qualidade de Software, por meio da realização de testes manuais no sistema SIFIT.
+O projeto tem como foco avaliar as funcionalidades da plataforma, identificar possíveis falhas e analisar se o comportamento do sistema atende aos resultados esperados.
 
-Os principais objetivos são:
+A proposta é contribuir para a **qualidade, confiabilidade e experiência do usuário**, utilizando práticas de QA e documentação estruturada.
 
-Verificar o funcionamento das funcionalidades disponíveis no sistema.
+---
 
-Identificar falhas de validação, navegação e processamento de informações.
+## 🎯 Objetivos do Projeto
 
-Avaliar a usabilidade e a clareza das mensagens apresentadas aos usuários.
+Aplicar, na prática, os conhecimentos adquiridos em **Qualidade de Software**, realizando testes funcionais e exploratórios em um sistema de gerenciamento de academias.
 
-Analisar o comportamento do sistema diante de entradas válidas e inválidas.
+| Objetivo | Descrição |
+|---|---|
+| ✅ Validação funcional | Verificar se os recursos funcionam conforme o esperado. |
+| 🐞 Identificação de bugs | Encontrar falhas de validação, navegação e processamento. |
+| 🖥️ Usabilidade | Avaliar a clareza das mensagens e a experiência do usuário. |
+| 🔄 Análise de cenários | Testar comportamentos com entradas válidas e inválidas. |
+| 📸 Evidências | Registrar os resultados utilizando imagens e vídeos. |
+| 💡 Melhoria contínua | Propor correções e melhorias para os problemas encontrados. |
 
-Documentar os resultados dos testes com evidências em imagens e vídeos.
+---
 
-Propor melhorias para os problemas identificados durante a execução.
+## 🧪 Metodologia de Testes
 
-🧪 Metodologia de Testes
+Os testes são realizados manualmente, seguindo uma abordagem estruturada que contempla:
 
-A execução dos testes manuais segue uma abordagem estruturada, com definição de cenários, resultados esperados, registro dos comportamentos observados e documentação das evidências.
+**Planejamento → Elaboração dos cenários → Execução → Registro de evidências → Análise dos resultados**
 
-Tipos de testes utilizados:
+### 🔍 Tipos de Testes
 
-Testes funcionais: verificação do comportamento das funcionalidades.
+| Tipo | Aplicação |
+|---|---|
+| ✅ **Funcionais** | Verificação do funcionamento das funcionalidades. |
+| 🟢 **Positivos** | Utilização de dados válidos para validar o comportamento esperado. |
+| 🔴 **Negativos** | Utilização de dados inválidos, incorretos ou incompletos. |
+| 🔎 **Exploratórios** | Investigação de possíveis falhas durante a navegação. |
+| 👤 **Usabilidade** | Avaliação da clareza das informações e facilidade de utilização. |
 
-Testes positivos: utilização de informações válidas para verificar o funcionamento esperado.
+### 🛠️ Ferramentas e Tecnologias
 
-Testes negativos: inserção de informações inválidas, incorretas ou incompletas.
+![GitHub](https://img.shields.io/badge/GitHub-Documentação-181717?style=flat-square&logo=github)
+![Markdown](https://img.shields.io/badge/Markdown-Relatórios-000000?style=flat-square&logo=markdown)
+![MariaDB](https://img.shields.io/badge/MariaDB-Banco%20de%20Dados-003545?style=flat-square&logo=mariadb)
+![MySQL](https://img.shields.io/badge/MySQL%20Workbench-Consultas-4479A1?style=flat-square&logo=mysql)
 
-Testes exploratórios: investigação de possíveis falhas durante a navegação.
+| Ferramenta | Finalidade |
+|---|---|
+| **MySQL Workbench** | Consulta e análise das informações armazenadas no banco. |
+| **MariaDB** | Banco de dados utilizado pelo sistema SIFIT. |
+| **GitHub** | Versionamento e organização da documentação. |
+| **Markdown** | Elaboração dos casos de teste e relatórios. |
+| **Prints e vídeos** | Registro das evidências das execuções. |
 
-Testes de usabilidade: avaliação da clareza das mensagens e facilidade de utilização.
+### 📋 Padrões de Documentação
 
-Ferramentas utilizadas:
+A documentação dos testes utiliza a metodologia **BDD (Behavior Driven Development)**, com cenários estruturados em:
 
-MySQL Workbench — consulta e análise dos dados armazenados no banco.
+> **DADO** um contexto inicial  
+> **QUANDO** uma ação é executada  
+> **ENTÃO** um comportamento deve ser observado
 
-MariaDB — banco de dados utilizado pelo sistema.
+Cada caso de teste poderá conter:
 
-GitHub — versionamento e organização da documentação.
+- Identificação e descrição do cenário.
+- Pré-condições para execução.
+- Passos utilizando BDD.
+- Critérios de aceitação.
+- Resultado esperado e resultado obtido.
+- Evidências em imagens e vídeos.
+- Relato da testadora e sugestões de melhoria.
+- Status: **Aprovado, Reprovado ou Bloqueado**.
 
-Markdown — elaboração dos casos de teste e relatórios.
+---
 
-Capturas de tela e gravações — registro de evidências.
+## 📈 Resultados Esperados
 
-Padrões de documentação:
+Com a execução dos testes, busca-se contribuir para o aprimoramento do SIFIT, identificando oportunidades de melhoria nas funcionalidades e na experiência dos usuários.
 
-BDD (Behavior Driven Development).
+### Principais resultados desejados
 
-Estrutura DADO, QUANDO e ENTÃO.
+✅ Identificar falhas e comportamentos inesperados.
 
-Tabelas de casos de teste.
+✅ Verificar a confiabilidade das funcionalidades.
 
-Registro de resultados esperados e obtidos.
+✅ Melhorar a clareza das mensagens e validações.
 
-Relatórios de falhas e recomendações.
+✅ Documentar os resultados de forma organizada e rastreável.
 
-📈 Resultados Esperados
+✅ Apresentar recomendações fundamentadas nas evidências coletadas.
 
-Com a realização dos testes, espera-se identificar possíveis inconsistências e contribuir para o aprimoramento do SIFIT, promovendo maior segurança, confiabilidade e facilidade de utilização.
+---
 
-A documentação também permitirá acompanhar os cenários executados, os problemas encontrados e as recomendações propostas.
+## 👩‍💻 Considerações Finais
 
-👩‍💻 Considerações Finais
+O projeto **SIFIT — Testes Manuais de Software** representa a aplicação prática dos conceitos de Qualidade de Software em um sistema de gestão de academias.
 
-Este projeto representa uma aplicação prática dos conceitos de Qualidade de Software em um sistema de gestão de academias.
+A realização dos testes contribui para o desenvolvimento de competências relacionadas à **análise de requisitos, elaboração de cenários, identificação de bugs, documentação técnica e avaliação da experiência do usuário**.
 
-A realização dos testes permite desenvolver habilidades relacionadas à análise de requisitos, identificação de falhas, elaboração de cenários, documentação técnica e avaliação da experiência do usuário.
+Mais do que verificar se uma funcionalidade está funcionando, o propósito é compreender seu comportamento, identificar possíveis inconsistências e propor melhorias que contribuam para um software mais eficiente, confiável e intuitivo.
 
-Mais do que verificar se uma funcionalidade está funcionando, o objetivo é compreender seu comportamento, identificar oportunidades de melhoria e contribuir para a entrega de um software mais confiável e eficiente.
+---
