@@ -4,7 +4,7 @@
 
 **QA responsável:**  Larissa Fernanda
 
-**Data:** 18/10/2026
+**Data:** 18/10/2026 
 
 ---
 
@@ -49,4 +49,36 @@
 | :-------------------------------------------: |
 Vídeo da execução:
 https://jam.dev/c/97986eeb-3c8c-4cfe-bf54-7b1155e95f28
+
+
+
+
+### 🐞  **Bug 02: Erro interno do servidor durante a navegação no SIFIT**
+
+| **ID**     | **Descrição**                                                                                                                                             |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BUG-002    | Durante a utilização do SIFIT, após um período prolongado de autenticação, o sistema apresenta a mensagem "Erro no servidor — Erro interno inesperado." ao acessar ou utilizar diferentes funcionalidades, prejudicando a navegação e a execução das operações.|
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|    Alta (provisória)  |     Alta (provisória)      |   Aberto   |
+
+
+
+|                        **Comportamento Esperado**                       |                        **Comportamento Obtido**                        |
+| :---------------------------------------------------------------------: | :--------------------------------------------------------------------: |
+|  O sistema deve permitir a navegação entre os módulos enquanto          |     Durante a navegação, o sistema apresenta uma mensagem|
+|  a sessão estiver válida.Caso a sessão expire,                          |     genérica de erro interno, sem explicar a causa ou orientar o|
+|  deve informar o usuário e solicitar uma nova autenticação.             |     usuário sobre como proceder.                                |                                                                   
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
+Print da execução:
+<img width="1917" height="896" alt="image" src="https://github.com/user-attachments/assets/bc050f1e-7a9a-4a6a-ae4f-b5e1ebfd4ee9" />
+
+
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
+Vídeo da execução:
+https://jam.dev/c/f57b5c39-dcf1-49ec-bdda-a0b42f85d11a
+
 
