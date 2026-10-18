@@ -1,49 +1,53 @@
 # Relatório de Bugs
 
-**Software:** OrangeHRM
+**Software:** SIFIT
 
-**QA responsável:**  Aluno aplicado que ama aprender 
+**QA responsável:**  Larissa Fernanda
 
-**Data:** 31.07.25
+**Data:** 18/10/2026
 
 ---
 
-### 🐞 **Bug 01: Ícone de visualizar senha desaparece ao clicar fora do campo**
+### 🐞 **Bug 01: Baixo contraste nos títulos e informações dos gráficos do Dashboard**
 
 | **ID**     | **Descrição**                                                                                                                                             |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BUG-001    | O ícone de “ver senha” desaparece ao clicar fora do campo de senha e não retorna ao clicar novamente, impedindo o usuário de visualizar a senha digitada. |
+| BUG-001    | Ao acessar o Dashboard do SIFIT, alguns títulos e textos dos gráficos apresentam cores muito próximas às do fundo, dificultando a leitura e a interpretação das informações gerenciais da academia.|
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
-|         Média         |            Alta            |   Aberto   |
+|         Média         |            Média           |   Aberto   |
 
 | **Passo a passo para simular o bug**                           |
 | -------------------------------------------------------------- |
-| 1. Acessar a página de login                                   |
-| 2. Digitar a senha no campo apropriado                         |
-| 3. Clicar no ícone de "ver senha"                              |
-| 4. Clicar fora do campo de senha                               |
-| 5. Voltar a clicar no campo ou tentar ativar o ícone novamente |
+| 1. Acessar a página de login do SIFIT.                                   |
+| 2. Informar credenciais válidas e realizar a autenticação.                         |
+| 3. Na página inicial, localizar o menu lateral.                              |
+| 4. Clicar na opção "Dashboard".                            |
+| 5. Observar os títulos e as informações apresentados nos gráficos de clientes e matrículas. |
+| 6. Identificar os textos com baixo contraste em relação ao fundo dos gráficos. |
 
 |                        **Comportamento Esperado**                       |                        **Comportamento Obtido**                        |
 | :---------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| O ícone de "ver senha" deve continuar visível mesmo após sair do campo. | O ícone desaparece e impede o usuário de visualizar a senha novamente. |
+|Os títulos, legendas e informações dos gráficos devem possuir contraste    |  Os gráficos são carregados, porém alguns títulos
+adequado em relação ao fundo, permitindo que o usuário visualize               e informações aparecem com cores muito próximas às do fundo,
+e interprete os indicadores gerenciais com facilidade. |                        comprometendo a legibilidade e dificultando a interpretação dos dados.
 
 | **Ambiente**             |
 | ------------------------ |
-| Ambiente de homologação. |
-| Desktop com Windows 11.  |
-| Chrome 138.0.7204.158    |
-| OrangeHRM Demo           |
+| Ambiente    /     Informações|
+|Sistema	         -   SIFIT —  Gestão de Academias|
+|Ambient         -   Sistema web|
+|Dispositivo     -   Desktop|
+|Página afetada  -   Dashboard           |
 
 | **Funcionalidade Afetada** |        **Caso de Teste Relacionado**       |
 | :------------------------: | :----------------------------------------: |
-| Login / Criação de usuário | C01-CT01: Login com e-mail e senha válidos |
+| Dashboard / Visualização de indicadores e gráficos | C02-CT01: Acesso ao Dashboard após login bem-sucedido |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
-| [Vídeo](https://jam.dev/c/6ea09cdb-2ff1-402f-ba58-6554ce87dee8) |
+| [Vídeo]([https://jam.dev/c/6ea09cdb-2ff1-402f-ba58-6554ce87dee8](https://jam.dev/c/97986eeb-3c8c-4cfe-bf54-7b1155e95f28)) |
 
 ---
 #### Bug 02: Página de login atualiza ao ocorrer erro de autenticação
