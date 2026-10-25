@@ -57,6 +57,7 @@ https://jam.dev/c/15fbb3d6-0290-48f5-9463-d5d177273308
 
 **Resultado obtido:** O Sistema permite cadastrar um novo colaborador preenchendo apenas o nome, sexo, status, data de nascimento.
 Sem que os demais campos importantes estivessem preenchidos.
+OUTRA OBSERVAÇÃO IMPORTANTE É QUE O CAMPO DO (RG) ACEITA VÁRIOS CARACTERES, ACIMA DA QUANTIDADE PERMITIDA QUE É DE 7 a 9 DÍGITOS (além do dígito verificador).
 
 Status: REPROVADO.
 
