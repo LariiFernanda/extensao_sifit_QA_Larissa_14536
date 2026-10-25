@@ -39,3 +39,36 @@ o sistema não aceita algumas opções,  abrindo até uma aba para selecionar a 
 | https://jam.dev/c/61151ba1-c55f-48b3-ac87-6d0af52ad0ea |
 
 ---
+## Caso de Teste CT09: Cadastrar conta com valor igual a zero
+
+| ID | Descrição |
+|---|---|
+| **C09-CT02** | Verificar se o sistema impede o cadastro de uma conta a receber com valor igual a R$ 0,00. |
+
+| Pré-condições |
+|---|
+| O formulário de cadastro deve estar disponível e o usuário deve possuir permissão para cadastrar contas. |
+
+| Passos |
+|---|
+| DADO que estamos no formulário de nova conta |
+| E preenchemos os campos obrigatórios corretamente |
+| E informamos R$ 0,00 no campo de valor a receber |
+| QUANDO clicarmos em "Salvar" |
+| ENTÃO o sistema deverá validar o valor informado |
+
+| Critérios de aceitação |
+|---|
+| O sistema deve impedir o cadastro de contas a receber com valor igual a zero, apresentando uma mensagem de validação. |
+
+| Resultado obtido |
+|---|
+| Resultado aconteceu conforme esperado, cadastro não salvo e apresentando uma mensagem de validação, para preencher corretamente o campo.|
+
+| Status |
+|---|
+|✅ Aprovado. |
+
+| Evidência(s) |
+|---|
+|https://jam.dev/c/c04610cd-7a90-4e32-b030-b97201709c52 |
