@@ -61,31 +61,16 @@ https://jam.dev/c/97986eeb-3c8c-4cfe-bf54-7b1155e95f28
 | **DADO** que o usuário está autenticado                          |
 | **E** está visualizando o Dashboard                              |
 | **QUANDO** a página for carregada                                |
-| **ENTÃO** widgets como \"Time at Work\" e \"My Actions\" devem ser exibidos |
+| **ENTÃO** widgets como "Inteligência de Retenção /Ações recomendadas para hoje" devem ser exibidos |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | Todos os widgets principais devem ser visíveis e funcionais.     |
 
+
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
+Vídeo da execução: 
+https://jam.dev/c/cc974765-4677-4bb6-a3f7-4d1286faca65
 ---
 
-### Caso de Teste 03: Acesso ao Dashboard com sessão expirada.
-
-| ID       | Descrição                                                            |
-| :------- | :------------------------------------------------------------------- |
-| C02-CT03 | O sistema deve redirecionar o usuário para o login se a sessão estiver expirada. |
-
-| **Pré-condições**                                             |
-| :------------------------------------------------------------ |
-| O usuário estava logado, mas a sessão expirou.                |
-
-| **Passos**                                                        |
-| :---------------------------------------------------------------- |
-| **DADO** que o usuário acessou o sistema anteriormente            |
-| **E** permaneceu inativo por um longo período                    |
-| **QUANDO** tentar acessar o Dashboard novamente                  |
-| **ENTÃO** o sistema deve redirecioná-lo para a página de login    |
-
-| **Critérios de aceitação**                                      |
-| :-------------------------------------------------------------- |
-| A sessão expirada deve ser tratada corretamente com redirecionamento. |
