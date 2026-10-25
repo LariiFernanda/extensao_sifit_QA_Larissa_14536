@@ -23,9 +23,13 @@
 O sistema deve autenticar o usuário e redirecioná-lo corretamente para a página inicial ou Dashboard,
 exibindo as funcionalidades correspondentes ao seu perfil. |
 
-Resultado obtido: O sistema realizou a autenticação do usuário com credenciais válidas e efetuou o redirecionamento para a página inicial, conforme o comportamento esperado.
+|**Resultado obtido:**|
+|---|
+|O sistema realizou a autenticação do usuário com credenciais válidas e efetuou o redirecionamento para a página inicial, conforme o comportamento esperado.|
 
-Status: Aprovado.
+| Status |
+|---|
+|✅ Aprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
@@ -64,9 +68,13 @@ https://jam.dev/c/979da446-11f1-4c87-8873-af458b1f3d57
 | permanecer na página de login e exibir uma mensagem de erro   |
 | informando que as credenciais fornecidas são inválidas.       |
 
-Resultado obtido: Ao realizar uma tentativa de login com senha incorreta, o sistema SIFIT impediu a autenticação e exibiu a mensagem "O nome de usuário e senha não correspondem.", permanecendo na página de login.
+|**Resultado obtido:**|
+|---|
+|Ao realizar uma tentativa de login com senha incorreta, o sistema SIFIT impediu a autenticação e exibiu a mensagem "O nome de usuário e senha não correspondem.", permanecendo na página de login.|
 
-Status: Aprovado.
+| Status |
+|---|
+|✅ Aprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
@@ -105,15 +113,17 @@ https://jam.dev/c/c5eb0694-fe80-4eed-a02d-90ddfb9b8c68
 | :-------------------------------------------------------------- |
 | Os campos obrigatórios devem exibir mensagens de validação.     |
 
-Durante a execução do teste, acessei a página de login do SIFIT e deixei os campos "Login" e "Senha" em branco. Em seguida, cliquei no botão "Entrar" para verificar como o sistema reagiria à ausência das informações obrigatórias.
-
+|**Resultado obtido:**|
+|---|
+|Durante a execução do teste, acessei a página de login do SIFIT e deixei os campos "Login" e "Senha" em branco. Em seguida, cliquei no botão "Entrar" para verificar como o sistema reagiria à ausência das informações obrigatórias.
 O sistema impediu o acesso, porém apresentou a mensagem "O nome de usuário e senha não correspondem.", mesmo sem nenhuma credencial ter sido informada.
-
 Como usuária, percebi que essa mensagem pode causar confusão, pois indica que os dados inseridos estão incorretos, quando, na realidade, os campos não foram preenchidos.
+Embora o sistema tenha impedido corretamente a autenticação, identifiquei uma falha na comunicação da validação. O comportamento mais adequado seria apresentar uma mensagem específica, como "Preencha os campos de login e senha", orientando o usuário sobre como proceder.|
 
-Embora o sistema tenha impedido corretamente a autenticação, identifiquei uma falha na comunicação da validação. O comportamento mais adequado seria apresentar uma mensagem específica, como "Preencha os campos de login e senha", orientando o usuário sobre como proceder.
-
-Status: Reprovado — falha na mensagem de validação dos campos obrigatórios.
+| Status |
+|---|
+|❌ Reprovado. 
+falha na mensagem de validação dos campos obrigatórios.|
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
