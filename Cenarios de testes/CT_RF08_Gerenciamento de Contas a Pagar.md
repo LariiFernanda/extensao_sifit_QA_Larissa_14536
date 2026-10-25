@@ -29,12 +29,12 @@
 
 | Resultado obtido |
 |---|
-|Ao preencher todos os capos solicitados, o sistema deu erro na hora de salvar. |
+|Ao preencher todos os capos solicitados, o sistema cadastrou com sucesso. |
 
 | Status |
 |---|
-|❌ Reprovado. |
+|✅ Aprovado. |
 
 | Evidência(s) |
 |---|
-|https://jam.dev/c/329cb8b0-c0ea-47e7-8f8c-68188faa48f8|
+|https://jam.dev/c/ef9b01ac-1c52-47b9-9c04-950de54241ce|
