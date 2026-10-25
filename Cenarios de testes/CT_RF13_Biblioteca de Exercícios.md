@@ -68,3 +68,38 @@
 | Evidência(s) |
 |---|
 | https://jam.dev/c/17a97d55-fbb5-4b27-b6b5-c8ee5ce8f1b6 |
+
+## Caso de Teste CT03: Cadastrar exercício com nome duplicado
+
+| ID | Descrição |
+|---|---|
+| **C13-CT03** | Verificar como o sistema trata o cadastro de dois exercícios com o mesmo nome dentro de um grupo muscular. |
+
+| Pré-condições |
+|---|
+| Deve existir um exercício cadastrado no grupo muscular "Bíceps". |
+
+| Passos |
+|---|
+| DADO que estamos na Biblioteca de Exercícios |
+| E identificamos um exercício existente no grupo "Bíceps" |
+| QUANDO clicarmos no botão "+ Adicionar" |
+| E informarmos o mesmo nome de um exercício já cadastrado |
+| E tentarmos salvar |
+| ENTÃO o sistema deverá verificar a possível duplicidade |
+
+| Critérios de aceitação |
+|---|
+| O sistema deve respeitar a regra de unicidade definida, impedindo duplicidades indevidas ou permitindo nomes repetidos somente quando previstos pelas regras de negócio. |
+
+| Resultado obtido |
+|---|
+|O sistema aceita cadastrar exercício com o nome repetido. |
+
+| Status |
+|---|
+|❌ Reprovado. |
+
+| Evidência(s) |
+|---|
+| https://jam.dev/c/88ea6da1-cfe8-4e17-a55b-505eb92ffc0e|
