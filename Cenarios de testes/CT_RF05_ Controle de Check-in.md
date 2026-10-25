@@ -1,4 +1,4 @@
-## Cenário 06: Gerenciamento de usuários no módulo Administração (Admin).
+## Cenário 05: Gerenciamento de usuários no módulo Administração (Admin).
 
 ### Caso de Teste 01: Adicionar um novo usuário com dados válidos.
 
