@@ -27,14 +27,15 @@
 
 | Resultado obtido |
 |---|
-| A preencher após a execução. |
+| Ao preencher todos os campos  a ação foi concluída com sucesso, com resalva do campo de 'tipo de pagamento',
+o sistema não aceita algumas opções,  abrindo até uma aba para selecionar a bandeira, para a forma escolhida PIX.|
 
 | Status |
 |---|
-| Não executado. |
+|✅ Aprovado. |
 
 | Evidência(s) |
 |---|
-| Print ou vídeo da execução: a inserir. |
+| https://jam.dev/c/61151ba1-c55f-48b3-ac87-6d0af52ad0ea |
 
 ---
