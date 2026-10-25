@@ -1,11 +1,11 @@
-
+# Cenário 08: Gerenciamento de Contas a Receber
 ---
 
-## Caso de Teste CT10: Cadastrar conta a receber com dados válidos
+## Caso de Teste CT09: Cadastrar conta a receber com dados válidos
 
 | ID | Descrição |
 |---|---|
-| **C10-CT01** | Verificar se o sistema SIFIT permite cadastrar uma nova conta a receber utilizando informações válidas. |
+| **C09-CT01** | Verificar se o sistema SIFIT permite cadastrar uma nova conta a receber utilizando informações válidas. |
 
 | Pré-condições |
 |---|
