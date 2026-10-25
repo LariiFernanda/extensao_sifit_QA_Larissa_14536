@@ -1,4 +1,4 @@
-# Cenário 09:  Gerenciamento de Contas a Pagar
+# Cenário 08:  Gerenciamento de Contas a Pagar
 
 ---
 
@@ -6,7 +6,7 @@
 
 | ID | Descrição |
 |---|---|
-| **C09-CT01** | Verificar se o sistema SIFIT permite cadastrar uma conta a pagar utilizando informações válidas. |
+| **C08-CT01** | Verificar se o sistema SIFIT permite cadastrar uma conta a pagar utilizando informações válidas. |
 
 | Pré-condições |
 |---|
