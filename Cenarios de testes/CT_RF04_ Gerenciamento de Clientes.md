@@ -111,11 +111,6 @@ das informacões do cadastro não aparecem no perfim do cliente, tem que clicar 
 Vídeo da execução:
 https://jam.dev/c/e80c3431-f139-4866-b7b8-ab13a9718ef6
 
-
-# RF04 — Alterar Foto do Cliente
-
-Casos de teste funcionais seguindo o modelo de **Descrição → Pré-condições → Passos → Critérios de aceitação → Resultado → Status → Evidências**.
-
 ---
 
 ## Caso de Teste 04: Alterar foto do cliente com arquivo válido
