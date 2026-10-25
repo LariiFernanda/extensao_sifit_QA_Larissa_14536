@@ -23,9 +23,15 @@
 | :-------------------------------------------------------------- |
 | O Cliente deve aparecer corretamente listado no módulo. |
 
-**Resultado obtido:** CLIENTE CADASTRADO COM SUCESSO, SEM SER PREENCHIDO TODOS OS CAMPOS NECESSÁRIOS COMO DOCUMENTO E ENDEREÇO
+|**Resultado obtido:** |
+|---|
+|CLIENTE CADASTRADO COM SUCESSO, SEM SER PREENCHIDO TODOS OS CAMPOS NECESSÁRIOS COMO DOCUMENTO E ENDEREÇO
 ALÉM DE O CAMPO (RG) PERMITIR VÁRIOS CARACTERES, INVIABILIZANDO O NUMERO CORRETO  DE 7 A 9 DIGITOS VÁLIDOS PARA O DOCUMENTO.
-Status: REPROVADO .
+Status: REPROVADO .|
+
+| Status |
+|---|
+| Aprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
@@ -55,11 +61,15 @@ https://jam.dev/c/e80c3431-f139-4866-b7b8-ab13a9718ef6
 | :-------------------------------------------------------------- |
 | Os campos obrigatórios devem exibir mensagens de validação.     |
 
-**Resultado obtido:** O Sistema permite cadastrar um novo Cliente preenchendo apenas o nome, sexo, status, data de nascimento.
+|**Resultado obtido:**|
+|---|
+|O Sistema permite cadastrar um novo Cliente preenchendo apenas o nome, sexo, status, data de nascimento.
 Sem que os demais campos importantes estivessem preenchidos.
-OUTRA OBSERVAÇÃO IMPORTANTE É QUE O CAMPO DO (RG) ACEITA VÁRIOS CARACTERES, ACIMA DA QUANTIDADE PERMITIDA QUE É DE 7 a 9 DÍGITOS (além do dígito verificador).
+OUTRA OBSERVAÇÃO IMPORTANTE É QUE O CAMPO DO (RG) ACEITA VÁRIOS CARACTERES, ACIMA DA QUANTIDADE PERMITIDA QUE É DE 7 a 9 DÍGITOS (além do dígito verificador).|
 
-Status: REPROVADO.
+| Status |
+|---|
+| Reprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
@@ -88,10 +98,14 @@ https://jam.dev/c/e80c3431-f139-4866-b7b8-ab13a9718ef6
 | :-------------------------------------------------------------- |
 | O Cliente correspondente deve ser listado corretamente.     |
 
-**Resultado obtido:** Cliente consta na lista, e  se buscado também é encontrado, porém notei que a visualização
-das informacões do cadastro não aparecem no perfim do cliente, tem que clicar em EDITAR, para visualizar os dados.
+|**Resultado obtido:**|
+|---|
+|Cliente consta na lista, e  se buscado também é encontrado, porém notei que a visualização
+das informacões do cadastro não aparecem no perfim do cliente, tem que clicar em EDITAR, para visualizar os dados.|
 
-Status: Aprovado.
+| Status |
+|---|
+| Aprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
