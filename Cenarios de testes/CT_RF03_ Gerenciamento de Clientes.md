@@ -23,7 +23,10 @@
 | O funcionário deve aparecer corretamente listado no módulo PIM. |
 
 **Resultado obtido:**
-Cadastro realizado com sucesso, porém não apresenta campos obrigatórios
+Cadastro realizado com sucesso, porém não apresenta campos obrigatórios.
+
+Status: Aprovado.
+
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
 Vídeo da execução: 
@@ -52,6 +55,11 @@ https://jam.dev/c/15fbb3d6-0290-48f5-9463-d5d177273308
 | :-------------------------------------------------------------- |
 | Os campos obrigatórios devem exibir mensagens de validação.     |
 
+**Resultado obtido:** O Sistema permite cadastrar um novo colaborador preenchendo apenas o nome, sexo, status, data de nascimento.
+Sem que os demais campos importantes estivessem preenchidos.
+
+Status: REPROVADO.
+
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
 Vídeo da execução: 
@@ -71,10 +79,17 @@ https://jam.dev/c/3c9d7444-af97-4999-b85b-ac86bcdc8288
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
 | **DADO** que o usuário acessa o menu \"PIM\"                     |
-| **E** digita \"John Doe\" no campo de busca                      |
-| **QUANDO** clicar no botão \"Search\"                            |
-| **ENTÃO** o sistema deve exibir \"John Doe\" na lista de resultados |
+| **E** digita \"Larissa\" no campo de busca                      |
+| **QUANDO** clicar no botão \"Buscar\"                            |
+| **ENTÃO** o sistema deve exibir \"Larissa\" na lista de resultados |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | O funcionário correspondente deve ser listado corretamente.     |
+
+Status: Aprovado.
+
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
+Vídeo da execução:
+https://jam.dev/c/679b3190-769f-4386-862a-667b7b4e418d
