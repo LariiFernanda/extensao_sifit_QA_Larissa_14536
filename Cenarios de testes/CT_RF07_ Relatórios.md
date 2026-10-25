@@ -6,7 +6,7 @@
 
 | ID | Descrição |
 |---|---|
-| **RF07-CT01** | Verificar se o sistema SIFIT permite gerar relatórios contendo o histórico de avaliações físicas dos clientes. |
+| **C07-CT01** | Verificar se o sistema SIFIT permite gerar relatórios contendo o histórico de avaliações físicas dos clientes. |
 
 | Pré-condições |
 |---|
@@ -43,7 +43,7 @@ Vídeo:
 
 | ID | Descrição |
 |---|---|
-| **RF07-CT02** | Verificar se o sistema permite gerar um relatório contendo os clientes cadastrados e suas respectivas situações. |
+| **C07-CT02** | Verificar se o sistema permite gerar um relatório contendo os clientes cadastrados e suas respectivas situações. |
 
 | Pré-condições |
 |---|
@@ -80,7 +80,7 @@ Vídeo:
 
 | ID | Descrição |
 |---|---|
-| **RF07-CT03** | Verificar se o sistema permite gerar relatórios com informações dos colaboradores cadastrados. |
+| **C07-CT03** | Verificar se o sistema permite gerar relatórios com informações dos colaboradores cadastrados. |
 
 | Pré-condições |
 |---|
