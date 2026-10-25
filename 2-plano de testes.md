@@ -40,68 +40,10 @@ A avaliação busca identificar falhas funcionais, problemas de validação, inc
 
 ---
 
-## 🧩 3. Escopo dos Testes
-
-O escopo contempla as funcionalidades disponíveis na interface web do SIFIT, priorizando os fluxos utilizados nas atividades de gerenciamento da academia.
-
-### ✅ Funcionalidades incluídas
-
-**Autenticação e Navegação**
-- Login com credenciais válidas e inválidas.
-- Validação de campos obrigatórios.
-- Recuperação de senha.
-- Acesso à página inicial e ao Dashboard.
-- Navegação entre os módulos.
-
-**Gestão Administrativa**
-- Cadastro e consulta de clientes.
-- Gerenciamento de matrículas.
-- Cadastro e acompanhamento de avaliações físicas.
-- Cadastro de fornecedores e funções profissionais.
-- Gerenciamento de tipos de documentos.
-
-**Controle Operacional**
-- Check-in manual e entrada rápida.
-- Consulta de presenças.
-- Pesquisa e filtros por período.
-- Gerenciamento de turmas e modalidades.
-- Organização das aulas do SifitBox.
-
-**Treinamento**
-- Cadastro e consulta de fichas de treino.
-- Biblioteca de exercícios.
-- Gerenciamento de grupos musculares.
-- Categorias CrossFit.
-- Objetivos de treinamento.
-
-**Gestão Financeira**
-- Contas a receber.
-- Contas a pagar.
-- Consulta de pagamentos e vencimentos.
-- Indicadores financeiros.
-
-**Gestão e Inteligência**
-- Visualização dos indicadores gerenciais.
-- Gerenciamento de enquetes.
-- Inteligência de retenção.
-- Automações disponíveis.
-- Notificações e alertas administrativos.
-
-### 🚫 Funcionalidades fora do escopo
-
-- Testes de carga, estresse e desempenho em larga escala.
-- Testes automatizados de interface ou API.
-- Testes de invasão e exploração de vulnerabilidades.
-- Testes em aplicativos móveis nativos.
-- Alterações estruturais no banco de dados.
-- Validação de integrações externas que dependam de serviços ou permissões não disponibilizados.
-- Funcionalidades identificadas como "Em desenvolvimento".
-
-**Observação:** a análise será realizada prioritariamente por meio da interface web, podendo utilizar consultas de leitura no banco de dados para verificar a consistência das informações, quando necessário.
 
 ---
 
-## 🔧 4. Ferramentas Utilizadas
+## 🔧 3. Ferramentas Utilizadas
 
 | Ferramenta | Finalidade |
 |---|---|
@@ -116,7 +58,7 @@ O escopo contempla as funcionalidades disponíveis na interface web do SIFIT, pr
 
 ---
 
-## 🧪 5. Técnicas de Teste
+## 🧪 4. Técnicas de Teste
 
 Os testes serão executados manualmente, utilizando técnicas adequadas à validação das funcionalidades e à identificação de inconsistências.
 
@@ -146,7 +88,7 @@ Cada execução será acompanhada de um registro do resultado observado e, sempr
 
 ---
 
-## 📄 6. Critérios de Aceitação
+## 📄 5. Critérios de Aceitação
 
 Um caso de teste será considerado aprovado quando o comportamento observado corresponder ao resultado esperado e atender aos requisitos definidos para a funcionalidade.
 
@@ -175,7 +117,7 @@ Quando uma funcionalidade operar corretamente, mas apresentar uma falha secundá
 
 ---
 
-## 🚦 7. Critérios de Saída (Exit Criteria)
+## 🚦 6. Critérios de Saída (Exit Criteria)
 
 A etapa de testes poderá ser considerada concluída quando:
 
@@ -191,55 +133,10 @@ A etapa de testes poderá ser considerada concluída quando:
 
 ---
 
-## ⏱️ 8. Cronograma de Testes
-
-O planejamento está organizado em etapas, considerando o andamento do projeto durante outubro de 2026.
-
-| Atividade | Período previsto | Situação |
-|---|---|---|
-| Análise inicial do SIFIT | Outubro/2026 | Em andamento |
-| Levantamento de requisitos funcionais | Outubro/2026 | Em andamento |
-| Elaboração dos cenários e casos de teste | Outubro/2026 | Em andamento |
-| Execução dos testes manuais | A definir | Em andamento |
-| Registro e análise dos bugs | Durante a execução | Em andamento |
-| Reexecução dos testes após correções | Conforme disponibilidade | Pendente |
-| Organização das evidências | Durante a execução | Em andamento |
-| Elaboração do relatório final | A definir | Pendente |
-
-*As datas poderão ser ajustadas conforme o cronograma acadêmico e a evolução das atividades.*
 
 ---
 
-## 📋 9. Módulos a Serem Testados
-
-A priorização considera o impacto das funcionalidades nas operações da academia e a relevância dos fluxos para a utilização do sistema.
-
-| Código RF | Módulo | Prioridade |
-|---|---|---|
-| RF01 | Autenticação e Controle de Acesso | Alta |
-| RF02 | Página Inicial e Dashboard | Alta |
-| RF03 | Gerenciamento de Clientes | Alta |
-| RF04 | Gerenciamento de Matrículas | Alta |
-| RF05 | Avaliações Físicas | Média |
-| RF06 | Controle de Check-in | Alta |
-| RF07 | Histórico de Presenças | Média |
-| RF08 | Fichas de Treino | Média |
-| RF09 | Exercícios e Grupos Musculares | Média |
-| RF10 | Turmas e Modalidades | Média |
-| RF11 | SifitBox e Categorias CrossFit | Média |
-| RF12 | Contas a Receber | Alta |
-| RF13 | Contas a Pagar | Alta |
-| RF14 | Fornecedores | Média |
-| RF15 | Funções Profissionais | Média |
-| RF16 | Tipos de Documentos | Baixa |
-| RF17 | Enquetes | Baixa |
-| RF18 | Inteligência e Automação | Média |
-
-**Critério de priorização:** funcionalidades relacionadas à autenticação, aos cadastros principais, ao controle de acesso dos alunos e às operações financeiras recebem maior prioridade por seu impacto operacional.
-
----
-
-## 🐞 10. Gestão de Defeitos
+## 🐞 7. Gestão de Defeitos
 
 Durante os testes, os comportamentos que não atenderem aos critérios esperados serão documentados por meio de relatórios de bugs.
 
@@ -270,7 +167,7 @@ Os defeitos serão acompanhados por meio da documentação no GitHub, mantendo o
 
 ---
 
-## ⚠️ 11. Riscos Identificados
+## ⚠️ 8. Riscos Identificados
 
 | Risco | Impacto | Estratégia de mitigação |
 |---|---|---|
@@ -287,7 +184,7 @@ Os defeitos serão acompanhados por meio da documentação no GitHub, mantendo o
 
 ---
 
-## 📁 12. Entregáveis
+## 📁 9. Entregáveis
 
 Ao final do processo, o projeto deverá apresentar os seguintes materiais:
 
@@ -303,7 +200,7 @@ Ao final do processo, o projeto deverá apresentar os seguintes materiais:
 
 ---
 
-## 👩‍💻 13. Considerações Finais
+## 👩‍💻 10. Considerações Finais
 
 O plano de testes do SIFIT foi elaborado com o objetivo de orientar a execução das atividades de Quality Assurance, proporcionando organização, rastreabilidade e padronização na documentação.
 
