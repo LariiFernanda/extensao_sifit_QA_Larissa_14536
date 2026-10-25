@@ -5,7 +5,7 @@ Cenário 06: Gerenciamento de Enquetes
 
 | ID | Descrição |
 |---|---|
-| **RF17-CT01** | Verificar se o sistema SIFIT permite cadastrar uma nova enquete utilizando dados válidos. |
+| **RF06-CT01** | Verificar se o sistema SIFIT permite cadastrar uma nova enquete utilizando dados válidos. |
 
 | Pré-condições |
 |---|
