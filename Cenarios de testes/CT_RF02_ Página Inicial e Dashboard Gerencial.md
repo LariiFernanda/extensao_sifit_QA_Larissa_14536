@@ -25,13 +25,16 @@ com credenciais válidas e permissão para acessar o Dashboard. O sistema deve e
 | :-------------------------------------------------------------- |
 | O sistema deverá permitir o acesso ao Dashboard após a autenticação do usuário, exibindo corretamente seus componentes visuais, indicadores, gráficos e informações gerenciais disponíveis, sem apresentar falhas de carregamento ou mensagens de erro.     |
 
-**Resultado obtido:**
-Durante a execução do teste, realizei o login no sistema SIFIT utilizando credenciais válidas e, após acessar a página inicial, selecionei a opção "Dashboard" no menu lateral.
+|**Resultado obtido:**|
+|---|
+ |Durante a execução do teste, realizei o login no sistema SIFIT utilizando credenciais válidas e, após acessar a página inicial, selecionei a opção "Dashboard" no menu lateral. |
 
 O sistema permitiu o acesso à página e apresentou os indicadores da seção "Inteligência Sifit", incluindo informações sobre alunos em risco, aniversariantes, avaliações próximas do vencimento e frequência dos alunos.
 Também observei o carregamento dos gráficos relacionados aos clientes, como frequência, faixa etária e sexo, além dos gráficos referentes às matrículas.
 
-**Status:** Aprovado com ressalvas quanto ao acesso e carregamento. Identificada falha visual que deverá ser registrada para correção, pois apresenta inconsistência visual na apresentação das informações. Alguns títulos e textos dos gráficos aparecem com cores muito próximas às do fundo quando no modo CLARO, dificultando a leitura e a identificação dos dados. (Mais Detalhes em Relatórios de Bugs).
+| Status |
+|---|
+|✅ Aprovado, com ressalvas quanto ao acesso e carregamento. Identificada falha visual que deverá ser registrada para correção, pois apresenta inconsistência visual na apresentação das informações. Alguns títulos e textos dos gráficos aparecem com cores muito próximas às do fundo quando no modo CLARO, dificultando a leitura e a identificação dos dados. (Mais Detalhes em Relatórios de Bugs). |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
@@ -67,6 +70,9 @@ https://jam.dev/c/97986eeb-3c8c-4cfe-bf54-7b1155e95f28
 | :-------------------------------------------------------------- |
 | Todos os widgets principais devem ser visíveis e funcionais.     |
 
+| Status |
+|---|
+|✅ Aprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
