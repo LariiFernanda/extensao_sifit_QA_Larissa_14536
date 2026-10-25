@@ -13,9 +13,9 @@
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
 | **DADO** que o usuário acessa o menu \"PIM\"                     |
-| **E** clica em \"Add Employee\"                                  |
-| **E** preenche \"John\" no campo First Name e \"Doe\" no Last Name |
-| **QUANDO** clicar em \"Save\"                                    |
+| **E** clica em \"Novo Colaborador\"                                  |
+| **E** preenche \"Larissa\" no campo Nome  |
+| **QUANDO** clicar em \"Salvar\"                                    |
 | **ENTÃO** o funcionário deve ser cadastrado e exibido na lista do PIM |
 
 | **Critérios de aceitação**                                      |
@@ -24,6 +24,7 @@
 
 **Resultado obtido:**
 Cadastro realizado com sucesso, porém não apresenta campos obrigatórios.
+E o status deve ser selecionado ATIVO/INATIVO.
 
 Status: Aprovado.
 
