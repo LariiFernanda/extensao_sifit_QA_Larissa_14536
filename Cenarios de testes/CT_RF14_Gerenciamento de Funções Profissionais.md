@@ -1,7 +1,5 @@
 # Cenário 14: Gerenciamento de Funções Profissionais
 
-Casos de teste funcionais seguindo o modelo de **Descrição → Pré-condições → Passos → Critérios de aceitação → Resultado → Status → Evidências**.
-
 ---
 
 ## Caso de Teste CT01: Cadastrar função com dados válidos
