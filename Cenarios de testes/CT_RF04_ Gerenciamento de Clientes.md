@@ -1,5 +1,5 @@
 
-## Cenário 05: Gestão de Clientes.
+## Cenário 04: Gestão de Clientes.
 
 ### Caso de Teste 01: Adicionar novo Cliente com dados válidos.
 
