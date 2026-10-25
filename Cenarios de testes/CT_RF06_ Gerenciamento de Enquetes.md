@@ -32,7 +32,7 @@ remover campos de respostas caso o usuário volte atrás mesmo que ainda na edi�
 
 | Status |
 |---|
-| Reprovado |
+| ❌  Reprovado |
 
 | Evidência(s) |
 |---|
