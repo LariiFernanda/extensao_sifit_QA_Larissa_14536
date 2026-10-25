@@ -110,3 +110,47 @@ das informacões do cadastro não aparecem no perfim do cliente, tem que clicar 
 | :-------------------------------------------: |
 Vídeo da execução:
 https://jam.dev/c/e80c3431-f139-4866-b7b8-ab13a9718ef6
+
+
+# RF04 — Alterar Foto do Cliente
+
+Casos de teste funcionais seguindo o modelo de **Descrição → Pré-condições → Passos → Critérios de aceitação → Resultado → Status → Evidências**.
+
+---
+
+## Caso de Teste 04: Alterar foto do cliente com arquivo válido
+
+| ID | Descrição |
+|---|---|
+| **C04-CT04** | Verificar se o sistema permite alterar a foto do cliente utilizando um arquivo de imagem válido. |
+
+| Pré-condições |
+|---|
+| O usuário deve estar autenticado no SIFIT, possuir permissão para editar clientes e o cliente deve estar cadastrado no sistema. |
+
+| Passos |
+|---|
+| DADO que estamos na tela de alteração de cliente |
+| E localizamos a seção "Foto do Cliente" |
+| QUANDO clicarmos na área "Clique para adicionar foto" |
+| E selecionarmos um arquivo válido nos formatos permitidos (JPG, PNG ou GIF) |
+| E confirmarmos a seleção do arquivo |
+| E clicarmos no botão para salvar as alterações do cliente |
+| ENTÃO a nova foto do cliente deverá ser exibida no cadastro |
+
+| Critérios de aceitação |
+|---|
+| O sistema deve permitir o upload do arquivo válido, vincular corretamente a imagem ao cliente e exibir a nova foto após salvar as alterações. |
+
+| Resultado obtido |
+|---|
+| Foto alterada com Sucesso, observação para o erro em carregamento em imagem formato GIF, ACEITANDO APENAS JPEG/PNG.|
+
+| Status |
+|---|
+|✅ Aprovado. |
+
+| Evidência(s) |
+|---|
+| https://jam.dev/c/608a7d28-3095-41c9-9519-e4bacf75f278 |
+
