@@ -1,4 +1,4 @@
-# Cenário 08: Gerenciamento de Contas a Receber
+# Cenário 09: Gerenciamento de Contas a Receber
 ---
 
 ## Caso de Teste CT09: Cadastrar conta a receber com dados válidos
