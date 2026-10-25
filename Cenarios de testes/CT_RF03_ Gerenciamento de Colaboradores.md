@@ -22,11 +22,14 @@
 | :-------------------------------------------------------------- |
 | O funcionário deve aparecer corretamente listado no módulo PIM. |
 
-**Resultado obtido:**
-Cadastro realizado com sucesso, porém não apresenta campos obrigatórios.
-E o status deve ser selecionado ATIVO/INATIVO.
+|**Resultado obtido:**|
+|---|
+|Cadastro realizado com sucesso, porém não apresenta campos obrigatórios.
+E o status deve ser selecionado ATIVO/INATIVO.|
 
-Status: Aprovado.
+| Status |
+|---|
+|✅ Aprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
@@ -56,11 +59,15 @@ https://jam.dev/c/15fbb3d6-0290-48f5-9463-d5d177273308
 | :-------------------------------------------------------------- |
 | Os campos obrigatórios devem exibir mensagens de validação.     |
 
-**Resultado obtido:** O Sistema permite cadastrar um novo colaborador preenchendo apenas o nome, sexo, status, data de nascimento.
+|**Resultado obtido:**|
+|---|
+|O Sistema permite cadastrar um novo colaborador preenchendo apenas o nome, sexo, status, data de nascimento.
 Sem que os demais campos importantes estivessem preenchidos.
-OUTRA OBSERVAÇÃO IMPORTANTE É QUE O CAMPO DO (RG) ACEITA VÁRIOS CARACTERES, ACIMA DA QUANTIDADE PERMITIDA QUE É DE 7 a 9 DÍGITOS (além do dígito verificador).
+OUTRA OBSERVAÇÃO IMPORTANTE É QUE O CAMPO DO (RG) ACEITA VÁRIOS CARACTERES, ACIMA DA QUANTIDADE PERMITIDA QUE É DE 7 a 9 DÍGITOS (além do dígito verificador).|
 
-Status: REPROVADO.
+| Status |
+|---|
+|❌ Reprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
@@ -89,7 +96,9 @@ https://jam.dev/c/3c9d7444-af97-4999-b85b-ac86bcdc8288
 | :-------------------------------------------------------------- |
 | O funcionário correspondente deve ser listado corretamente.     |
 
-Status: Aprovado.
+| Status |
+|---|
+|✅ Aprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
