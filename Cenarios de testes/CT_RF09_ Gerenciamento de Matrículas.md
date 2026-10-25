@@ -1,4 +1,4 @@
-# RF10 — Gerenciamento de Matrículas
+# RF09 — Gerenciamento de Matrículas
 
 ---
 
@@ -6,7 +6,7 @@
 
 | ID | Descrição |
 |---|---|
-| **C10-CT01** | Verificar se o sistema SIFIT permite cadastrar uma nova matrícula utilizando informações válidas. |
+| **C09-CT01** | Verificar se o sistema SIFIT permite cadastrar uma nova matrícula utilizando informações válidas. |
 
 | Pré-condições |
 |---|
