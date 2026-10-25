@@ -4,7 +4,7 @@
 
 | ID | Descrição |
 |---|---|
-| **RF05-CT01** | Verificar se o sistema SIFIT permite realizar o check-in de um cliente utilizando um código válido. |
+| **C05-CT01** | Verificar se o sistema SIFIT permite realizar o check-in de um cliente utilizando um código válido. |
 
 | Pré-condições |
 |---|
