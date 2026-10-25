@@ -36,3 +36,39 @@
 | Evidência(s) |
 |---|
 | https://jam.dev/c/32a6b3d9-3947-49a9-b32a-cd42c697b8a6 |
+
+
+## Caso de Teste CT02: Cadastrar avaliação sem selecionar aluno
+
+| ID | Descrição |
+|---|---|
+| **C12-CT02** | Verificar se o sistema impede o cadastro de uma avaliação física sem selecionar um aluno. |
+
+| Pré-condições |
+|---|
+| O usuário deve estar autenticado e possuir acesso ao cadastro de avaliações. |
+
+| Passos |
+|---|
+| DADO que estamos no formulário "Cadastrar Avaliação" |
+| E deixamos os campos "Código" e "Nome" do aluno vazios |
+| E selecionamos um personal responsável |
+| E informamos uma data e um horário válidos |
+| QUANDO clicarmos no botão "Salvar" |
+| ENTÃO o sistema deverá impedir o cadastro |
+
+| Critérios de aceitação |
+|---|
+| O sistema deve exigir a seleção de um aluno válido e apresentar uma mensagem de validação, impedindo avaliações sem vínculo com um aluno cadastrado. |
+
+| Resultado obtido |
+|---|
+|Resultado positivo, como o esperado sistema mostrou um alerta para preencher o obrigatório da escolha do Aluno. |
+
+| Status |
+|---|
+|✅ Aprovado. |
+
+| Evidência(s) |
+|---|
+| https://jam.dev/c/601a2a17-567e-4222-82f0-cab7fd2b8811 |
