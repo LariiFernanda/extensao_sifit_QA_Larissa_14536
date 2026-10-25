@@ -22,6 +22,8 @@
 | :-------------------------------------------------------------- |
 | O funcionário deve aparecer corretamente listado no módulo PIM. |
 
+**Resultado obtido:**
+Cadastro realizado com sucesso, porém não apresenta campos obrigatórios
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
 Vídeo da execução: 
@@ -41,15 +43,19 @@ https://jam.dev/c/15fbb3d6-0290-48f5-9463-d5d177273308
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que o usuário acessa a tela de \"Add Employee\"          |
+| **DADO** que o usuário acessa a tela de \"Add Colaboradores\"          |
 | **E** deixa os campos obrigatórios em branco                     |
-| **QUANDO** clicar em \"Save\"                                    |
+| **QUANDO** clicar em \"Salvar\"                                    |
 | **ENTÃO** mensagens de erro devem ser exibidas nos campos obrigatórios |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
 | Os campos obrigatórios devem exibir mensagens de validação.     |
 
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
+Vídeo da execução: 
+https://jam.dev/c/3c9d7444-af97-4999-b85b-ac86bcdc8288
 ---
 
 ### Caso de Teste 03: Pesquisar funcionário já cadastrado.
