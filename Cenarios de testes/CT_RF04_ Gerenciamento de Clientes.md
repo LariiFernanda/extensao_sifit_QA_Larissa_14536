@@ -5,7 +5,7 @@
 
 | ID       | Descrição                                                          |
 | :------- | :----------------------------------------------------------------- |
-| RF04-CT01 | O sistema deve permitir o cadastro de um Cliente com dados válidos. |
+| CO04-CT01 | O sistema deve permitir o cadastro de um Cliente com dados válidos. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
@@ -43,7 +43,7 @@ https://jam.dev/c/e80c3431-f139-4866-b7b8-ab13a9718ef6
 
 | ID       | Descrição                                                                  |
 | :------- | :------------------------------------------------------------------------- |
-| RF04-CT02 | O sistema deve exibir erros ao tentar salvar um Cliente sem preencher os campos obrigatórios. |
+| CO04-CT02 | O sistema deve exibir erros ao tentar salvar um Cliente sem preencher os campos obrigatórios. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
@@ -80,7 +80,7 @@ https://jam.dev/c/e80c3431-f139-4866-b7b8-ab13a9718ef6
 
 | ID       | Descrição                                                  |
 | :------- | :--------------------------------------------------------- |
-| RF04-CT03 | O sistema deve retornar corretamente o Cliente pesquisado. |
+| CO04-CT03 | O sistema deve retornar corretamente o Cliente pesquisado. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
