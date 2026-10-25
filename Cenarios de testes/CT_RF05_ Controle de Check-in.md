@@ -1,70 +1,37 @@
-## Cenário 05: Gerenciamento de usuários no módulo Administração (Admin).
+## Cenário 05: Controle de Check-in
 
-### Caso de Teste 01: Adicionar um novo usuário com dados válidos.
+## Caso de Teste 05: Realizar check-in com código válido
 
-| ID       | Descrição                                                            |
-| :------- | :------------------------------------------------------------------- |
-| C06-CT01 | O sistema deve permitir o cadastro de um novo usuário com informações válidas. |
+| ID | Descrição |
+|---|---|
+| **RF05-CT01** | Verificar se o sistema SIFIT permite realizar o check-in de um cliente utilizando um código válido. |
 
-| **Pré-condições**                                             |
-| :------------------------------------------------------------ |
-| O usuário deve estar logado com permissões de administrador.  |
+| Pré-condições |
+|---|
+| O usuário deve estar autenticado no SIFIT e possuir permissão para realizar check-ins. O cliente deve estar cadastrado e autorizado a acessar a academia. |
 
-| **Passos**                                                        |
-| :---------------------------------------------------------------- |
-| **DADO** que o administrador acessa o menu \"Admin\"             |
-| **E** clica em \"Add\"                                           |
-| **E** preenche os campos obrigatórios como \"Employee Name\", \"Username\" e \"Password\" |
-| **QUANDO** clicar em \"Save\"                                    |
-| **ENTÃO** o novo usuário deve ser cadastrado e listado corretamente |
+| Passos |
+|---|
+| DADO que estamos na página de Check-ins do SIFIT |
+| E localizamos a seção "Entrada rápida" |
+| E informamos um código válido no campo "Código do cliente" |
+| QUANDO clicarmos no botão "Realizar check-in" |
+| ENTÃO o sistema deverá registrar a entrada do cliente |
+| E atualizar a listagem de check-ins |
 
-| **Critérios de aceitação**                                      |
-| :-------------------------------------------------------------- |
-| O usuário cadastrado deve aparecer na lista de usuários ativos. |
+| Critérios de aceitação |
+|---|
+| O sistema deve registrar o check-in corretamente, vinculando a entrada ao cliente, à unidade selecionada, à data e ao horário da operação. |
 
----
+| Resultado obtido |
+|---|
+| Check-in, realizado com Sucesso. |
 
-### Caso de Teste 02: Tentativa de adicionar usuário com nome de usuário já existente.
+| Status |
+|---|
+| Aprovado. |
 
-| ID       | Descrição                                                                       |
-| :------- | :------------------------------------------------------------------------------- |
-| C06-CT02 | O sistema deve impedir o cadastro de um novo usuário com nome de usuário duplicado. |
-
-| **Pré-condições**                                             |
-| :------------------------------------------------------------ |
-| Já deve existir um usuário com o mesmo nome de usuário.       |
-
-| **Passos**                                                        |
-| :---------------------------------------------------------------- |
-| **DADO** que o administrador acessa o menu \"Admin\"             |
-| **E** clica em \"Add\"                                           |
-| **E** insere um nome de usuário que já existe                   |
-| **QUANDO** clicar em \"Save\"                                    |
-| **ENTÃO** uma mensagem de erro \"Already exists\" deve ser exibida |
-
-| **Critérios de aceitação**                                      |
-| :-------------------------------------------------------------- |
-| O sistema deve impedir o cadastro e exibir mensagem de duplicidade. |
-
----
-
-### Caso de Teste 03: Filtrar usuários por status "Enabled".
-
-| ID       | Descrição                                                      |
-| :------- | :------------------------------------------------------------- |
-| C06-CT03 | O sistema deve exibir apenas usuários com status "Enabled" ao aplicar o filtro. |
-
-| **Pré-condições**                                             |
-| :------------------------------------------------------------ |
-| Deve haver usuários com diferentes status (Enabled e Disabled). |
-
-| **Passos**                                                        |
-| :---------------------------------------------------------------- |
-| **DADO** que o administrador acessa o menu \"Admin\"             |
-| **E** seleciona \"Enabled\" no campo \"Status\"                 |
-| **QUANDO** clicar em \"Search\"                                  |
-| **ENTÃO** apenas usuários com status \"Enabled\" devem ser exibidos na lista |
-
-| **Critérios de aceitação**                                      |
-| :-------------------------------------------------------------- |
-| A lista deve conter apenas usuários com status "Enabled".       |
+|                **Evidência(s)**               |
+| :-------------------------------------------: |
+Vídeo da execução:
+https://jam.dev/c/1d2e1849-a197-428b-a590-81d7884a3c6c
