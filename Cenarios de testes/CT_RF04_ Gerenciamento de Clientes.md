@@ -5,7 +5,7 @@
 
 | ID       | Descrição                                                          |
 | :------- | :----------------------------------------------------------------- |
-| C03-CT01 | O sistema deve permitir o cadastro de um Cliente com dados válidos. |
+| RF04-CT01 | O sistema deve permitir o cadastro de um Cliente com dados válidos. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
@@ -30,7 +30,7 @@ ALÉM DE O CAMPO (RG) PERMITIR VÁRIOS CARACTERES, INVIABILIZANDO O NUMERO CORRE
 
 | Status |
 |---|
-| Reprovado. |
+|❌ Reprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
@@ -43,7 +43,7 @@ https://jam.dev/c/e80c3431-f139-4866-b7b8-ab13a9718ef6
 
 | ID       | Descrição                                                                  |
 | :------- | :------------------------------------------------------------------------- |
-| C03-CT02 | O sistema deve exibir erros ao tentar salvar um Cliente sem preencher os campos obrigatórios. |
+| RF04-CT02 | O sistema deve exibir erros ao tentar salvar um Cliente sem preencher os campos obrigatórios. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
@@ -68,7 +68,7 @@ OUTRA OBSERVAÇÃO IMPORTANTE É QUE O CAMPO DO (RG) ACEITA VÁRIOS CARACTERES, 
 
 | Status |
 |---|
-| Reprovado. |
+|❌ Reprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
@@ -80,7 +80,7 @@ https://jam.dev/c/e80c3431-f139-4866-b7b8-ab13a9718ef6
 
 | ID       | Descrição                                                  |
 | :------- | :--------------------------------------------------------- |
-| C03-CT03 | O sistema deve retornar corretamente o Cliente pesquisado. |
+| RF04-CT03 | O sistema deve retornar corretamente o Cliente pesquisado. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
@@ -104,7 +104,7 @@ das informacões do cadastro não aparecem no perfim do cliente, tem que clicar 
 
 | Status |
 |---|
-| Aprovado. |
+|✅ Aprovado. |
 
 |                **Evidência(s)**               |
 | :-------------------------------------------: |
