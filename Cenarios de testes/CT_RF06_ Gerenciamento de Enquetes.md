@@ -1,4 +1,4 @@
-
+Cenário 06: Gerenciamento de Enquetes
 
 
 ## Caso de Teste CT01: Cadastrar nova enquete com dados válidos
