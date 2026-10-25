@@ -128,7 +128,7 @@ https://jam.dev/c/e80c3431-f139-4866-b7b8-ab13a9718ef6
 | DADO que estamos na tela de alteração de cliente |
 | E localizamos a seção "Foto do Cliente" |
 | QUANDO clicarmos na área "Clique para adicionar foto" |
-| E selecionarmos um arquivo válido nos formatos permitidos (JPG, PNG ou GIF) |
+| E selecionarmos um arquivo válido nos formatos permitidos (JPG ou PNG) |
 | E confirmarmos a seleção do arquivo |
 | E clicarmos no botão para salvar as alterações do cliente |
 | ENTÃO a nova foto do cliente deverá ser exibida no cadastro |
